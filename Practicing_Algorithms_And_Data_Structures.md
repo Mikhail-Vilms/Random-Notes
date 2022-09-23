@@ -1,0 +1,137 @@
+### Linked List
+- LC-234. Palindrome Linked List [Easy][Green]
+  - https://leetcode.com/problems/palindrome-linked-list/
+  - fast and slow pointer; reverse first part of the list "on the fly"
+- LC-237. Delete Node in a Linked List [Medium][RED]
+  - https://leetcode.com/problems/delete-node-in-a-linked-list/
+- LC-203. Remove Linked List Elements [Easy][RED]
+  - https://leetcode.com/problems/remove-linked-list-elements/
+  - Carefully with poiters
+- LC-2095. Delete the Middle Node of a Linked List [Medium][Green]
+  - https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list
+  - Slow/Fast pointers; solved right away; do not re-iterate
+- LC-21. Merge Two Sorted Lists [Easy][Green]
+  - https://leetcode.com/problems/merge-two-sorted-lists/
+  - successful first attempt - do not return to this one
+  
+### Binary Tree
+- Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
+- LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
+- LC-145. Binary Tree Postorder Traversal https://leetcode.com/problems/binary-tree-postorder-traversal/
+- LC-958. Check Completeness of a Binary Tree [Medium][Yellow]
+- LC-236. Lowest Common Ancestor of a Binary Tree https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/ [Medium][Yellow]
+- LC-105. Construct Binary Tree from Preorder and Inorder Traversal [Medium][Yellow]
+ - https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+- LC-106. Construct Binary Tree from Inorder and Postorder Traversal [TODO]
+  - https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/ 
+- LC-104. Maximum Depth of Binary Tree
+  - https://leetcode.com/problems/maximum-depth-of-binary-tree/
+  - successful first attempt - do not return to this one
+
+### Binary Search Tree
+- Data Structures: Binary Search Tree: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
+- LC-700. Search in a Binary Search Tree https://leetcode.com/problems/search-in-a-binary-search-tree/ [Easy][Green]
+- LC-98. Validate Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/
+- LC-701. Insert into a Binary Search Tree https://leetcode.com/problems/insert-into-a-binary-search-tree/ [Medium][Yellow]
+- LC-TODO: 450. Delete Node in a BST https://leetcode.com/problems/delete-node-in-a-bst/
+- LC-230. Kth Smallest Element in a BST https://leetcode.com/problems/kth-smallest-element-in-a-bst/ [Medium][Green]
+- LC-1008. Construct Binary Search Tree from Preorder Traversal https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/ [Medium][Green]
+- !!! Comment: keep min and max for possible range for every element
+- LC-102. Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/ [Medium][Green]8
+- Solved this one right away within 30 minutes - do not return to this problem 
+- TODO: LC-449. Serialize and Deserialize BST https://leetcode.com/problems/serialize-and-deserialize-bst/
+
+### HashSet
+- Data Structures: Hash Tables https://www.youtube.com/watch?v=shs0KM3wKv8
+- 771. Jewels and Stones https://leetcode.com/problems/jewels-and-stones/ [Easy][Green]
+- 1748. Sum of Unique Elements https://leetcode.com/problems/sum-of-unique-elements/submissions/ [Easy][Green]
+- 1481. Least Number of Unique Integers after K Removals https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/ [Medium][Yellow]
+- 781. Rabbits in Forest https://leetcode.com/problems/rabbits-in-forest/ [Medium][Green]
+
+### Bit Manipulations
+- Algorithms: Bit Manipulation: https://www.youtube.com/watch?v=NLKQEOgBAnw
+- 389. Find the Difference
+ - https://leetcode.com/problems/find-the-difference/
+- 136. Single Number
+  - https://leetcode.com/problems/single-number/
+  - successful first attempt - do not return to this one
+
+### Dynamic Programming
+- Algorithms: Memoization and Dynamic Programming https://www.youtube.com/watch?v=P8Xa2BitN3I
+- LC-70. Climbing Stairs https://leetcode.com/problems/climbing-stairs/ [Easy][Green]
+- LC-131. Palindrome Partitioning https://leetcode.com/problems/palindrome-partitioning/ [Medium][Red]
+- LC-300. Longest Increasing Subsequence
+  - https://leetcode.com/problems/longest-increasing-subsequence/
+  - [Medium] [RED]
+- LC-198. House Robber [Medium][Green]
+  - https://leetcode.com/problems/house-robber/
+  - recursion + memoization
+  - solved right away; do not reiterate this one
+- LC-322. Coin Change [Medium][Yellow]
+  - https://leetcode.com/problems/coin-change/
+  - RE-VISIT later
+
+### Heaps
+- Data Structures: Heaps https://www.youtube.com/watch?v=t0Cq6tVNRBA
+- 215. Kth Largest Element in an Array https://leetcode.com/problems/kth-largest-element-in-an-array/ [Medium][Green]
+  - Comment: We don't have "Heap" implementation in c#, but it is possible to use PriorityQueue
+- 692. Top K Frequent Words https://leetcode.com/problems/top-k-frequent-words/ [https://leetcode.com/problems/top-k-frequent-words/]
+- 347. Top K Frequent Elements
+  - https://leetcode.com/problems/top-k-frequent-elements/
+  - Solved 
+
+### Backtracking
+- Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.
+- https://leetcode.com/explore/learn/card/recursion-ii/472/backtracking/2654/
+- LC-78. Subsets [Medium][Green]
+  - https://leetcode.com/problems/subsets/
+  - successful first attempt - do not return to this one 
+- LC-17. Letter Combinations of a Phone Number [Medium][Green]
+  - https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+  - successful first attempt - do not return to this one
+- LC-46. **Permutations [Medium][RED]**
+  - https://leetcode.com/problems/permutations/
+  - return and repeat
+- LC-47. **Permutations II [Medium][RED]**
+  - https://leetcode.com/problems/permutations-ii/
+  - return and repeat
+
+### Other
+- **LC-53. Maximum Subarray [Medium][RED]**
+  - https://leetcode.com/problems/maximum-subarray/
+  - **REVISIT(!!!)**
+- 134. Gas Station [https://leetcode.com/problems/gas-station/] [Medium][Yellow]
+- 79. Word Search [https://leetcode.com/problems/word-search/] [Medium][Green]
+- 283. Move Zeroes [https://leetcode.com/problems/move-zeroes/] [Easy][Green]
+- https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+  - https://leetcode.com/problems/find-the-winner-of-the-circular-game/discuss/1157717/Java-full-solution-and-explanation
+- https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+- 139. Word Break [https://leetcode.com/problems/word-break/submissions/] [Medium][Green]
+  - Surprizingly, solved this one right away within 30 minutes - do not return to this problem
+- 121. Best Time to Buy and Sell Stock https://leetcode.com/problems/best-time-to-buy-and-sell-stock [Easy][Green]
+  - One pointer and keep min value
+- LC-122. Best Time to Buy and Sell Stock II https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ []
+  - Two pointers + conditions to stay within array
+- LC-11. Container With Most Water
+  - https://leetcode.com/problems/container-with-most-water/
+  - Pure 2 pointers in lenear time; no additional DS
+- LC-162. Find Peak Element [RED] [TODO]
+  - https://leetcode.com/problems/find-peak-element/
+- LC-395. Longest Substring with At Least K Repeating Characters
+  - https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/ [Merium][Yellow]
+  - Plain Recursion, alike divide&conquer
+- LC-5. Longest Palindromic Substring
+ - https://leetcode.com/problems/longest-palindromic-substring/
+ - Two pointers - expand Around Center
+- LC-128. Longest Consecutive Sequence
+  - https://leetcode.com/problems/longest-consecutive-sequence/
+  - One dictionary
+  - successful first attempt - do not return to this one
+- LC-287. Find the Duplicate Number [Medium][RED]
+  - https://leetcode.com/problems/find-the-duplicate-number/
+  - RE-VISIT  
+- LC-20. Valid Parentheses [Easy][Green]
+  - https://leetcode.com/problems/valid-parentheses/
+  - Just stack, successful first attempt
+ - 53. Maximum Subarray
+  -
