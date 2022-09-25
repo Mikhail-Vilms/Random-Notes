@@ -136,3 +136,7 @@
  - 53. Maximum Subarray
   - https://leetcode.com/problems/maximum-subarray/
   - RE-VISIT later; should be O(n)
+- 162. Find Peak Element [Medium][RED]
+  - https://leetcode.com/problems/find-peak-element/
+  - Wasn't able to solve
+  - REVISIT LATER 
