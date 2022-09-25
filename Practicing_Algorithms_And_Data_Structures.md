@@ -1,19 +1,23 @@
 ### Linked List
-- LC-234. Palindrome Linked List [Easy][Green]
+- **LC-234. Palindrome Linked List [Easy][Green]**
   - https://leetcode.com/problems/palindrome-linked-list/
   - fast and slow pointer; reverse first part of the list "on the fly"
-- LC-237. Delete Node in a Linked List [Medium][RED]
+- **LC-237. Delete Node in a Linked List [Medium][RED]**
   - https://leetcode.com/problems/delete-node-in-a-linked-list/
-- LC-203. Remove Linked List Elements [Easy][RED]
+- **LC-203. Remove Linked List Elements [Easy][RED]
   - https://leetcode.com/problems/remove-linked-list-elements/
   - Carefully with poiters
-- LC-2095. Delete the Middle Node of a Linked List [Medium][Green]
+- **LC-2095. Delete the Middle Node of a Linked List [Medium][Green]**
   - https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list
   - Slow/Fast pointers; solved right away; do not re-iterate
-- LC-21. Merge Two Sorted Lists [Easy][Green]
+- **LC-21. Merge Two Sorted Lists [Easy][Green]**
   - https://leetcode.com/problems/merge-two-sorted-lists/
   - successful first attempt - do not return to this one
-  
+- **LC-19. Remove Nth Node From End of List [Easy][Green]**
+  - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+  - As usually, two pointers - traverse once
+  - successful first attempt - do not return to this one 
+
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
