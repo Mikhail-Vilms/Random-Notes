@@ -133,10 +133,10 @@
 - LC-20. Valid Parentheses [Easy][Green]
   - https://leetcode.com/problems/valid-parentheses/
   - Just stack, successful first attempt
- - 53. Maximum Subarray
+- LC-53. Maximum Subarray
   - https://leetcode.com/problems/maximum-subarray/
   - RE-VISIT later; should be O(n)
-- 162. Find Peak Element [Medium][RED]
+- LC-162. Find Peak Element [Medium][RED]
   - https://leetcode.com/problems/find-peak-element/
   - Wasn't able to solve
   - REVISIT LATER 
