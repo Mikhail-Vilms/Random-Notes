@@ -144,3 +144,6 @@
   - https://leetcode.com/problems/find-peak-element/
   - Wasn't able to solve
   - REVISIT LATER 
+- LC-3. Longest Substring Without Repeating Characters [Medium][Green]
+  - https://leetcode.com/problems/longest-substring-without-repeating-characters/
+  - Pure sliding window problem; confused with dp at first, but was able to correct relatively quickly. MAYBE REVISIT LATER  
