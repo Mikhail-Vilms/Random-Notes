@@ -147,6 +147,6 @@
 - LC-3. Longest Substring Without Repeating Characters [Medium][Green]
   - https://leetcode.com/problems/longest-substring-without-repeating-characters/
   - Pure sliding window problem; confused with dp at first, but was able to correct relatively quickly. MAYBE REVISIT LATER  
-- LC-155. Min Stack
+- LC-155. Min Stack [Medium][Green]
   - https://leetcode.com/problems/min-stack/
   - keep track of min val for every element. Successful first attempt - do not return to this one
