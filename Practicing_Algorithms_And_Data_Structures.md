@@ -153,6 +153,9 @@
 - LC-155. Min Stack [Medium][Green]
   - https://leetcode.com/problems/min-stack/
   - keep track of min val for every element. Successful first attempt - do not return to this one
-- 34. Find First and Last Position of Element in Sorted Array
+- LC-3. Find First and Last Position of Element in Sorted Array
   - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
   - Solved on the first attempt, but may want to revisit later
+- LC-56. Merge Intervals [Medium] :red_circle:
+  - https://leetcode.com/problems/merge-intervals/
+  - Solved with dictionary; beats 99% solutions by time; but it seems like this solution is not among those that are listed on LC   
