@@ -99,6 +99,9 @@
 - LC-47. **Permutations II [Medium][RED]**
   - https://leetcode.com/problems/permutations-ii/
   - return and repeat
+- LC-22. Generate Parentheses
+  - https://leetcode.com/problems/generate-parentheses/submissions/
+  - Solved right away. Do not revisit this one
 
 ### Other
 - **LC-53. Maximum Subarray [Medium][RED]**
