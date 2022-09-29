@@ -17,7 +17,9 @@
   - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
   - As usually, two pointers - traverse once
   - successful first attempt - do not return to this one 
-
+- **LC-138. Copy List with Random Pointer[Medium] :green_circle:**
+  - https://leetcode.com/problems/copy-list-with-random-pointer/
+  - Solved with additional dictionary; could be solved without it
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
