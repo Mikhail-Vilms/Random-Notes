@@ -20,6 +20,7 @@
 - **LC-138. Copy List with Random Pointer[Medium] :green_circle:**
   - https://leetcode.com/problems/copy-list-with-random-pointer/
   - Solved with additional dictionary; could be solved without it
+
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
@@ -33,7 +34,9 @@
 - LC-104. Maximum Depth of Binary Tree
   - https://leetcode.com/problems/maximum-depth-of-binary-tree/
   - successful first attempt - do not return to this one
-
+- **LC-101. Symmetric Tree [Easy] :green_circle:**
+  - https://leetcode.com/problems/symmetric-tree/
+  - Solved using DFS - do not revisit
 ### Binary Search Tree
 - Data Structures: Binary Search Tree: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
 - LC-700. Search in a Binary Search Tree https://leetcode.com/problems/search-in-a-binary-search-tree/ [Easy][Green]
