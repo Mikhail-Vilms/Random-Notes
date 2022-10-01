@@ -164,3 +164,6 @@
 - LC-56. Merge Intervals [Medium] :yellow_circle:
   - https://leetcode.com/problems/merge-intervals/
   - Solved with dictionary; beats 99% solutions by time; but it seems like this solution is not among those that are listed on LC   
+- **LC-238. Product of Array Except Self [Medium] :green_circle:**
+  - https://leetcode.com/problems/product-of-array-except-self/ 
+  - Solved, do not re-visit
