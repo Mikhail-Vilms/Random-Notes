@@ -133,6 +133,9 @@
   - Solved right away. Do not revisit this one
 
 ### Graph
+- **LC-207. Course Schedule [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/course-schedule/ 
+  - Revisit later
 - **LC-210. Course Schedule II [Medium] :yellow_circle:**
   - Should be solved using "Topological Sorted Order" method. Seeme like solved using dict under the same time/space. May want to re-visit 
 
