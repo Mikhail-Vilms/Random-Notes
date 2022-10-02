@@ -1,13 +1,14 @@
 ## Practicing Algorithms And Data Structures
-- [Linked List](#linked-list)
-- [Binary Tree](#binary-tree)
-- [Binary Search Tree](#binary-search-tree)
-- [HashSet](#HashSet)
-- [Bit Manipulations](#bit-manipulations)
-- [Dynamic Programming](#dynamic-programming)
-- [Heap](#heap)
-- [Backtracking](#backtracking)
-- [Backtracking](#backtracking)
+- **[Linked List](#linked-list)**
+- **[Binary Tree](#binary-tree)**
+- **[Binary Search Tree](#binary-search-tree)**
+- **[HashSet](#HashSet)**
+- **[Bit Manipulations](#bit-manipulations)**
+- **[Dynamic Programming](#dynamic-programming)**
+- **[Heap](#heap)**
+- **[Backtracking](#backtracking)**
+- **[Graph](#graph)**
+- **[Other](#Other)**
 
 ### Linked List
 - **LC-234. Palindrome Linked List [Easy][Green]**
