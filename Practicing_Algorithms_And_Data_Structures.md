@@ -61,10 +61,13 @@
 - 781. Rabbits in Forest https://leetcode.com/problems/rabbits-in-forest/ [Medium][Green]
 
 ### Bit Manipulations
-- Algorithms: Bit Manipulation: https://www.youtube.com/watch?v=NLKQEOgBAnw
-- 389. Find the Difference
+- **:clapper: Algorithms: Solve 'Lonley Integer' Using Bit Manipulation**
+  - https://www.youtube.com/watch?v=eXWjCgbL01U
+- **:clapper: Algorithms: Bit Manipulation**
+  - https://www.youtube.com/watch?v=NLKQEOgBAnw
+- **LC-389. Find the Difference**
  - https://leetcode.com/problems/find-the-difference/
-- 136. Single Number
+- **LC-136. Single Number**
   - https://leetcode.com/problems/single-number/
   - successful first attempt - do not return to this one
 
