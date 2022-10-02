@@ -198,3 +198,6 @@
 - **LC-238. Product of Array Except Self [Medium] :green_circle:**
   - https://leetcode.com/problems/product-of-array-except-self/ 
   - Solved, do not re-visit
+- **LC-38. Count and Say [Medium] :green_circle:**
+  - https://leetcode.com/problems/count-and-say/
+  - Solved on the first attempt, do not re-visit
