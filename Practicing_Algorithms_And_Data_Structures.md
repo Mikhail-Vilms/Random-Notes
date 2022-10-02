@@ -11,21 +11,21 @@
 - **[Other](#Other)**
 
 ### Linked List
-- **LC-234. Palindrome Linked List [Easy][Green]**
+- **LC-234. Palindrome Linked List [Easy] :green_circle:**
   - https://leetcode.com/problems/palindrome-linked-list/
   - fast and slow pointer; reverse first part of the list "on the fly"
-- **LC-237. Delete Node in a Linked List [Medium][RED]**
+- **LC-237. Delete Node in a Linked List [Medium] :red_circle:**
   - https://leetcode.com/problems/delete-node-in-a-linked-list/
-- **LC-203. Remove Linked List Elements [Easy][RED]
+- **LC-203. Remove Linked List Elements [Easy] :red_circle:**
   - https://leetcode.com/problems/remove-linked-list-elements/
   - Carefully with poiters
-- **LC-2095. Delete the Middle Node of a Linked List [Medium][Green]**
+- **LC-2095. Delete the Middle Node of a Linked List [Medium] :green_circle:**
   - https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list
   - Slow/Fast pointers; solved right away; do not re-iterate
-- **LC-21. Merge Two Sorted Lists [Easy][Green]**
+- **LC-21. Merge Two Sorted Lists [Easy] :green_circle:**
   - https://leetcode.com/problems/merge-two-sorted-lists/
   - successful first attempt - do not return to this one
-- **LC-19. Remove Nth Node From End of List [Easy][Green]**
+- **LC-19. Remove Nth Node From End of List [Easy] :green_circle:**
   - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
   - As usually, two pointers - traverse once
   - successful first attempt - do not return to this one 
@@ -67,11 +67,16 @@
 - TODO: LC-449. Serialize and Deserialize BST https://leetcode.com/problems/serialize-and-deserialize-bst/
 
 ### HashSet
-- Data Structures: Hash Tables https://www.youtube.com/watch?v=shs0KM3wKv8
-- 771. Jewels and Stones https://leetcode.com/problems/jewels-and-stones/ [Easy][Green]
-- 1748. Sum of Unique Elements https://leetcode.com/problems/sum-of-unique-elements/submissions/ [Easy][Green]
-- 1481. Least Number of Unique Integers after K Removals https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/ [Medium][Yellow]
-- 781. Rabbits in Forest https://leetcode.com/problems/rabbits-in-forest/ [Medium][Green]
+- **:clapper: Data Structures: Hash Tables**
+  - https://www.youtube.com/watch?v=shs0KM3wKv8
+- **LC-771. Jewels and Stones [Easy] :green_circle:**
+  - https://leetcode.com/problems/jewels-and-stones/
+- **LC-1748. Sum of Unique Elements [Easy] :green_circle:**
+  - https://leetcode.com/problems/sum-of-unique-elements
+- **LC-1481. Least Number of Unique Integers after K Removals  [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
+- **LC-781. Rabbits in Forest [Medium] :green_circle:**
+  - https://leetcode.com/problems/rabbits-in-forest/
 
 ### Bit Manipulations
 - **:clapper: Algorithms: Solve 'Lonley Integer' Using Bit Manipulation**
