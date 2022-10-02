@@ -1,4 +1,13 @@
-
+## Practicing Algorithms And Data Structures
+- [Linked List](#linked-list)
+- [Binary Tree](#binary-tree)
+- [Binary Search Tree](#binary-search-tree)
+- [HashSet](#HashSet)
+- [Bit Manipulations](#bit-manipulations)
+- [Dynamic Programming](#dynamic-programming)
+- [Heap](#heap)
+- [Backtracking](#backtracking)
+- [Backtracking](#backtracking)
 
 ### Linked List
 - **LC-234. Palindrome Linked List [Easy][Green]**
@@ -42,6 +51,7 @@
 - **LC-101. Symmetric Tree [Easy] :green_circle:**
   - https://leetcode.com/problems/symmetric-tree/
   - Solved using DFS - do not revisit
+
 ### Binary Search Tree
 - Data Structures: Binary Search Tree: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
 - LC-700. Search in a Binary Search Tree https://leetcode.com/problems/search-in-a-binary-search-tree/ [Easy][Green]
@@ -98,8 +108,8 @@
   - Solved 
 
 ### Backtracking
-- Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.
-- https://leetcode.com/explore/learn/card/recursion-ii/472/backtracking/2654/
+- *:book: Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.*
+  - https://leetcode.com/explore/learn/card/recursion-ii/472/backtracking/2654/
 - LC-78. Subsets [Medium][Green]
   - https://leetcode.com/problems/subsets/
   - successful first attempt - do not return to this one 
