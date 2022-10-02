@@ -83,7 +83,7 @@
   - https://leetcode.com/problems/coin-change/
   - RE-VISIT later
 
-### Heaps
+### Heap
 - Data Structures: Heaps https://www.youtube.com/watch?v=t0Cq6tVNRBA
 - 215. Kth Largest Element in an Array https://leetcode.com/problems/kth-largest-element-in-an-array/ [Medium][Green]
   - Comment: We don't have "Heap" implementation in c#, but it is possible to use PriorityQueue
@@ -110,6 +110,10 @@
 - LC-22. Generate Parentheses
   - https://leetcode.com/problems/generate-parentheses/submissions/
   - Solved right away. Do not revisit this one
+
+### Graph
+- **LC-210. Course Schedule II [Medium] :yellow_circle:**
+  - Should be solved using "Topological Sorted Order" method. Seeme like solved using dict under the same time/space. May want to re-visit 
 
 ### Other
 - **LC-53. Maximum Subarray [Medium][RED]**
