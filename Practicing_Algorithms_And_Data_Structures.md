@@ -2,7 +2,7 @@
 - **[Linked List](#linked-list)**
 - **[Binary Tree](#binary-tree)**
 - **[Binary Search Tree](#binary-search-tree)**
-- **[HashSet](#HashSet)**
+- **[HashSet or Dictionary](#hashset-or-dictionary)**
 - **[Bit Manipulations](#bit-manipulations)**
 - **[Dynamic Programming](#dynamic-programming)**
 - **[Heap](#heap)**
@@ -66,7 +66,7 @@
 - Solved this one right away within 30 minutes - do not return to this problem 
 - TODO: LC-449. Serialize and Deserialize BST https://leetcode.com/problems/serialize-and-deserialize-bst/
 
-### HashSet
+### HashSet or Dictionary
 - **:clapper: Data Structures: Hash Tables**
   - https://www.youtube.com/watch?v=shs0KM3wKv8
 - **LC-771. Jewels and Stones [Easy] :green_circle:**
@@ -77,6 +77,9 @@
   - https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
 - **LC-781. Rabbits in Forest [Medium] :green_circle:**
   - https://leetcode.com/problems/rabbits-in-forest/
+- **LC-49. Group Anagrams [Medium] :red_circle:**
+  - https://leetcode.com/problems/group-anagrams/
+  - REVISIT
 
 ### Bit Manipulations
 - **:clapper: Algorithms: Solve 'Lonley Integer' Using Bit Manipulation**
