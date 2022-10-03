@@ -204,3 +204,6 @@
 - **LC-38. Count and Say [Medium] :green_circle:**
   - https://leetcode.com/problems/count-and-say/
   - Solved on the first attempt, do not re-visit
+- **LC-28. Find the Index of the First Occurrence in a String [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+  - All tests are green on the first attempt; However, there is some algorithm may worth reading: Knuth–Morris–Pratt algorithm
