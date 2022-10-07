@@ -115,11 +115,14 @@
   - RE-VISIT later
 
 ### Heap
-- Data Structures: Heaps https://www.youtube.com/watch?v=t0Cq6tVNRBA
-- 215. Kth Largest Element in an Array https://leetcode.com/problems/kth-largest-element-in-an-array/ [Medium][Green]
+- **:clapper: Data Structures: Heaps**
+  - https://www.youtube.com/watch?v=t0Cq6tVNRBA
+- **LC-215. Kth Largest Element in an Array [Medium] :green_circle:**
+  - https://leetcode.com/problems/kth-largest-element-in-an-array/ 
   - Comment: We don't have "Heap" implementation in c#, but it is possible to use PriorityQueue
-- 692. Top K Frequent Words https://leetcode.com/problems/top-k-frequent-words/ [https://leetcode.com/problems/top-k-frequent-words/]
-- 347. Top K Frequent Elements
+- **LC-692. Top K Frequent Words**
+  - https://leetcode.com/problems/top-k-frequent-words/
+- **LC-347. Top K Frequent Elements**
   - https://leetcode.com/problems/top-k-frequent-elements/
   - Solved 
 
