@@ -35,6 +35,9 @@
 - **LC-328. Odd Even Linked List [Medium] :green_circle:**
   - https://leetcode.com/problems/odd-even-linked-list/
   - Two pointers - carefully with pointers/esge-cases. Solved on the first attempt; do not re-iterate
+- **LC-160. Intersection of Two Linked Lists [Easy] :green_circle:**
+  - https://leetcode.com/problems/intersection-of-two-linked-lists/
+  - Solved on the first attempt; do not re-iterate
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
