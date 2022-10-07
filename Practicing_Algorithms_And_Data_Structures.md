@@ -220,3 +220,6 @@
 - **LC-240. Search a 2D Matrix II [Medium] :red_circle:**
   - https://leetcode.com/problems/search-a-2d-matrix-ii/
   - Spent the whole day solving this one; there is a linear solution - **REVISIT**
+- **LC-130. Surrounded Regions [Medium] :green_circle:**
+  - https://leetcode.com/problems/surrounded-regions/
+  - Solved on first attempt
