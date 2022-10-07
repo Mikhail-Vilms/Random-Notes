@@ -96,18 +96,22 @@
   - successful first attempt - do not return to this one
 
 ### Dynamic Programming
-- Algorithms: Memoization and Dynamic Programming https://www.youtube.com/watch?v=P8Xa2BitN3I
-- LC-70. Climbing Stairs https://leetcode.com/problems/climbing-stairs/ [Easy][Green]
-- LC-131. Palindrome Partitioning https://leetcode.com/problems/palindrome-partitioning/ [Medium][Red]
-- LC-300. Longest Increasing Subsequence
+- **:clapper: Algorithms: Memoization and Dynamic Programming**
+  - https://www.youtube.com/watch?v=P8Xa2BitN3I
+- **LC-70. Climbing Stairs [Easy] :green_circle:**
+  - https://leetcode.com/problems/climbing-stairs/
+- **LC-131. Palindrome Partitioning [Medium] :red_circle:**
+  - https://leetcode.com/problems/palindrome-partitioning/
+- **LC-300. Longest Increasing Subsequence [Medium] :red_circle**
   - https://leetcode.com/problems/longest-increasing-subsequence/
-  - [Medium] [RED]
-- LC-198. House Robber [Medium][Green]
+- **LC-198. House Robber [Medium] :green_circle:** 
   - https://leetcode.com/problems/house-robber/
-  - recursion + memoization
-  - solved right away; do not reiterate this one
-- LC-322. Coin Change [Medium][Yellow]
+  - recursion + memoization; solved right away; do not reiterate this one
+- **LC-322. Coin Change [Medium] :yellow_circle:**
   - https://leetcode.com/problems/coin-change/
+  - RE-VISIT later
+- **LC-279. Perfect Squares [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/perfect-squares/
   - RE-VISIT later
 
 ### Heap
