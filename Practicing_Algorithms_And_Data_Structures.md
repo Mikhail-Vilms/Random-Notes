@@ -94,6 +94,10 @@
 - **LC-136. Single Number**
   - https://leetcode.com/problems/single-number/
   - successful first attempt - do not return to this one
+- **LC-371. Sum of Two Integers[Medium] :red_circle:**
+  - https://leetcode.com/problems/sum-of-two-integers/
+  - :clapper: https://www.youtube.com/watch?v=qq64FrA2UXQ
+  - **REVISIT Later**
 
 ### Dynamic Programming
 - **:clapper: Algorithms: Memoization and Dynamic Programming**
