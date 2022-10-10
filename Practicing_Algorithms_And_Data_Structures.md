@@ -55,6 +55,9 @@
 - **LC-101. Symmetric Tree [Easy] :green_circle:**
   - https://leetcode.com/problems/symmetric-tree/
   - Solved using DFS - do not revisit
+- **LC-116. Populating Next Right Pointers in Each Node [Medium] :red_circle:**
+  - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+  - REVISIT
 
 ### Binary Search Tree
 - Data Structures: Binary Search Tree: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
@@ -68,9 +71,6 @@
 - LC-102. Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/ [Medium][Green]8
 - Solved this one right away within 30 minutes - do not return to this problem 
 - TODO: LC-449. Serialize and Deserialize BST https://leetcode.com/problems/serialize-and-deserialize-bst/
-- **LC-116. Populating Next Right Pointers in Each Node [Medium] :red_circle:**
-  - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
-  - REVISIT
 
 ### HashSet or Dictionary
 - **:clapper: Data Structures: Hash Tables**
