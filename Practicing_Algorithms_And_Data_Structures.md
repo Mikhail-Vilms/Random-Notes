@@ -227,3 +227,6 @@
 - **LC-130. Surrounded Regions [Medium] :green_circle:**
   - https://leetcode.com/problems/surrounded-regions/
   - Solved on first attempt
+- **LC-341. Flatten Nested List Iterator [Medium] :red_circle:**
+  - https://leetcode.com/problems/flatten-nested-list-iterator/ 
+  - Took several hours to solve; Revisit later
