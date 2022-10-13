@@ -77,6 +77,9 @@
 - LC-102. Binary Tree Level Order Traversal https://leetcode.com/problems/binary-tree-level-order-traversal/ [Medium][Green]8
 - Solved this one right away within 30 minutes - do not return to this problem 
 - TODO: LC-449. Serialize and Deserialize BST https://leetcode.com/problems/serialize-and-deserialize-bst/
+- **LC-108. Convert Sorted Array to Binary Search Tree [Easy] :green_circle:**
+  - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+  - Solved; Do not revisit
 
 ### HashSet or HashMap
 - **:clapper: Data Structures: Hash Tables**
