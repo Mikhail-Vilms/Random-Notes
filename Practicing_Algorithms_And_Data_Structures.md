@@ -1,5 +1,6 @@
 ## Practicing Algorithms And Data Structures
 - **[Linked List](#linked-list)**
+- **[Array](#array)**
 - **[Binary Tree](#binary-tree)**
 - **[Binary Search Tree](#binary-search-tree)**
 - **[HashSet or HashMap](#hashset-or-hashmap)**
@@ -38,6 +39,11 @@
 - **LC-160. Intersection of Two Linked Lists [Easy] :green_circle:**
   - https://leetcode.com/problems/intersection-of-two-linked-lists/
   - Solved on the first attempt; do not re-iterate
+
+### Array
+- **LC-189. Rotate Array [Medium] :red_circle:**
+  - https://leetcode.com/problems/rotate-array/
+  - Solved, but there is way easier approach with "reverse" technique; **MUST REVISIT LATER**
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
