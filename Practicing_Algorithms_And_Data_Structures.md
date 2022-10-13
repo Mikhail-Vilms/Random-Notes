@@ -236,6 +236,9 @@
 - **LC-341. Flatten Nested List Iterator [Medium] :red_circle:**
   - https://leetcode.com/problems/flatten-nested-list-iterator/ 
   - Took several hours to solve; Revisit later
-- **179. Largest Number [Medium] :red_circle:**
+- **LC-179. Largest Number [Medium] :red_circle:**
   - Solved, but took long time + there is easier solution
   - REVISIT 
+- **LC-48. Rotate Image [Medium] :green_circle:**
+  - https://leetcode.com/problems/rotate-image/
+  - Solved, do not revisit
