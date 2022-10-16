@@ -253,3 +253,6 @@
 - **LC-48. Rotate Image [Medium] :green_circle:**
   - https://leetcode.com/problems/rotate-image/
   - Solved, do not revisit
+- **150. Evaluate Reverse Polish Notation [Medium] :green_circle:**
+  - https://leetcode.com/problems/evaluate-reverse-polish-notation/
+  - Solved, do not revisit
