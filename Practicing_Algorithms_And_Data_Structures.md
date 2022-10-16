@@ -47,6 +47,12 @@
 - **LC-73. Set Matrix Zeroes [Medium] :red_circle:**
   - https://leetcode.com/problems/add-two-numbers/
   -  **MUST REVISIT LATER**
+- **LC-33. Search in Rotated Sorted Array [Medium] :green_circle:**
+  - https://leetcode.com/problems/search-in-rotated-sorted-array/
+  - Solved on the first attempt; do not re-iterate
+- **LC-378. Kth Smallest Element in a Sorted Matrix [Medium] :green_circle: :green_circle: :green_circle:**
+  - https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
