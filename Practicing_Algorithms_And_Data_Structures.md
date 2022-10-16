@@ -1,6 +1,6 @@
 ## Practicing Algorithms And Data Structures
 - **[Linked List](#linked-list)**
-- **[Array](#array)**
+- **[Array or Matrix](#array-or-matrix)**
 - **[Binary Tree](#binary-tree)**
 - **[Binary Search Tree](#binary-search-tree)**
 - **[HashSet or HashMap](#hashset-or-hashmap)**
@@ -40,11 +40,13 @@
   - https://leetcode.com/problems/intersection-of-two-linked-lists/
   - Solved on the first attempt; do not re-iterate
 
-### Array
+### Array or Matrix
 - **LC-189. Rotate Array [Medium] :red_circle:**
   - https://leetcode.com/problems/rotate-array/
   - Solved, but there is way easier approach with "reverse" technique; **MUST REVISIT LATER**
-
+- **LC-73. Set Matrix Zeroes [Medium] :red_circle:**
+  - https://leetcode.com/problems/add-two-numbers/
+  -  **MUST REVISIT LATER**
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
