@@ -50,7 +50,7 @@
 - **LC-33. Search in Rotated Sorted Array [Medium] :green_circle:**
   - https://leetcode.com/problems/search-in-rotated-sorted-array/
   - Solved on the first attempt; do not re-iterate
-- **LC-378. Kth Smallest Element in a Sorted Matrix [Medium] :green_circle: :green_circle: :green_circle:**
+- **LC-378. Kth Smallest Element in a Sorted Matrix [Medium] :red_circle: :red_circle: :red_circle:**
   - https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
 
 ### Binary Tree
