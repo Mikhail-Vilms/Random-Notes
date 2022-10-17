@@ -52,7 +52,10 @@
   - Solved on the first attempt; do not re-iterate
 - **LC-378. Kth Smallest Element in a Sorted Matrix [Medium] :red_circle: :red_circle: :red_circle:**
   - https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
-
+  -  **MUST REVISIT LATER**
+- **LC-54. Spiral Matrix [Medium] :red_circle: :red_circle: :red_circle:**
+  -  https://leetcode.com/problems/spiral-matrix/
+  - **MUST REVISIT LATER**  
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
