@@ -10,6 +10,8 @@
 - **[Backtracking](#backtracking)**
 - **[Graph](#graph)**
 - **[Other](#Other)**
+- **[TODO](#Todo)**
+
 
 ### Linked List
 - **LC-234. Palindrome Linked List [Easy] :green_circle:**
@@ -43,6 +45,7 @@
   - https://leetcode.com/problems/add-two-numbers/
   - Solved on the first attempt; do not re-visit
 
+
 ### Array or Matrix
 - **LC-189. Rotate Array [Medium] :red_circle:**
   - https://leetcode.com/problems/rotate-array/
@@ -65,6 +68,7 @@
 - **LC-48. Rotate Image [Medium] :green_circle:**
   - https://leetcode.com/problems/rotate-image/
   - Solved, do not revisit
+
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
@@ -105,7 +109,6 @@
   - Solved; Do not revisit
 
 
-
 ### HashSet or HashMap
 - **:clapper: Data Structures: Hash Tables**
   - https://www.youtube.com/watch?v=shs0KM3wKv8
@@ -132,11 +135,12 @@
 - **LC-49. Group Anagrams [Medium] :red_circle:**
   - https://leetcode.com/problems/group-anagrams/
   - REVISIT
-- **146. LRU Cache [Medium] :yellow_circle:**
+- **LC-146. LRU Cache [Medium] :yellow_circle:**
   - https://leetcode.com/problems/lru-cache/
-  - Maybe revisit later 
-
-
+  - Maybe revisit later
+- **LC-36. Valid Sudoku [Medium] :green_circle:**
+  - https://leetcode.com/problems/valid-sudoku/
+  - Solved; Do not revisit
 
 ### Bit Manipulations
 - **:clapper: Algorithms: Solve 'Lonley Integer' Using Bit Manipulation**
@@ -152,7 +156,6 @@
   - https://leetcode.com/problems/sum-of-two-integers/
   - :clapper: https://www.youtube.com/watch?v=qq64FrA2UXQ
   - **REVISIT Later**
-
 
 
 ### Dynamic Programming
@@ -297,9 +300,14 @@
 - **LC-179. Largest Number [Medium] :red_circle:**
   - Solved, but took long time + there is easier solution
   - REVISIT
-- **150. Evaluate Reverse Polish Notation [Medium] :green_circle:**
+- **LC-150. Evaluate Reverse Polish Notation [Medium] :green_circle:**
   - https://leetcode.com/problems/evaluate-reverse-polish-notation/
   - Solved, do not revisit
+
+
+### TODO
+- **LC-37. Sudoku Solver**
+  - https://leetcode.com/problems/sudoku-solver/
 
 
 ### Links
