@@ -106,6 +106,18 @@
 ### HashSet or HashMap
 - **:clapper: Data Structures: Hash Tables**
   - https://www.youtube.com/watch?v=shs0KM3wKv8
+- **LC-1. Two Sum [Easy] :yellow_circle:**
+  - https://leetcode.com/problems/two-sum/
+  - **REVISIT**
+- **LC-15. 3Sum [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/3sum/ 
+  - **REVISIT**
+- **LC-18. 4Sum [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/4sum/
+  - **REVISIT**
+- **LC-454. 4Sum II [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/4sum-ii/
+  - **REVISIT**
 - **LC-771. Jewels and Stones [Easy] :green_circle:**
   - https://leetcode.com/problems/jewels-and-stones/
 - **LC-1748. Sum of Unique Elements [Easy] :green_circle:**
