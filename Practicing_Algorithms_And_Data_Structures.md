@@ -55,7 +55,12 @@
   -  **MUST REVISIT LATER**
 - **LC-54. Spiral Matrix [Medium] :red_circle: :red_circle: :red_circle:**
   -  https://leetcode.com/problems/spiral-matrix/
-  - **MUST REVISIT LATER**  
+  - **MUST REVISIT LATER** 
+- **LC-334. Increasing Triplet Subsequence [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/increasing-triplet-subsequence/
+  - Two pointers, linear time - revisit later 
+
+
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
 - LC-94. Binary Tree Inorder Traversal https://leetcode.com/problems/binary-tree-inorder-traversal/
@@ -76,6 +81,8 @@
   - https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
   - REVISIT
 
+
+
 ### Binary Search Tree
 - Data Structures: Binary Search Tree: https://www.youtube.com/watch?v=i_Q0v_Ct5lY
 - LC-700. Search in a Binary Search Tree https://leetcode.com/problems/search-in-a-binary-search-tree/ [Easy][Green]
@@ -91,6 +98,8 @@
 - **LC-108. Convert Sorted Array to Binary Search Tree [Easy] :green_circle:**
   - https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
   - Solved; Do not revisit
+
+
 
 ### HashSet or HashMap
 - **:clapper: Data Structures: Hash Tables**
@@ -110,6 +119,8 @@
   - https://leetcode.com/problems/lru-cache/
   - Maybe revisit later 
 
+
+
 ### Bit Manipulations
 - **:clapper: Algorithms: Solve 'Lonley Integer' Using Bit Manipulation**
   - https://www.youtube.com/watch?v=eXWjCgbL01U
@@ -124,6 +135,8 @@
   - https://leetcode.com/problems/sum-of-two-integers/
   - :clapper: https://www.youtube.com/watch?v=qq64FrA2UXQ
   - **REVISIT Later**
+
+
 
 ### Dynamic Programming
 - **:clapper: Algorithms: Memoization and Dynamic Programming**
@@ -144,6 +157,8 @@
   - https://leetcode.com/problems/perfect-squares/
   - RE-VISIT later
 
+
+
 ### Heap
 - **:clapper: Data Structures: Heaps**
   - https://www.youtube.com/watch?v=t0Cq6tVNRBA
@@ -155,6 +170,8 @@
 - **LC-347. Top K Frequent Elements**
   - https://leetcode.com/problems/top-k-frequent-elements/
   - Solved 
+
+
 
 ### Backtracking
 - *:book: Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.*
@@ -175,12 +192,16 @@
   - https://leetcode.com/problems/generate-parentheses/submissions/
   - Solved right away. Do not revisit this one
 
+
+
 ### Graph
 - **LC-207. Course Schedule [Medium] :yellow_circle:**
   - https://leetcode.com/problems/course-schedule/ 
   - Revisit later
 - **LC-210. Course Schedule II [Medium] :yellow_circle:**
   - Should be solved using "Topological Sorted Order" method. Seeme like solved using dict under the same time/space. May want to re-visit 
+
+
 
 ### Other
 - **LC-53. Maximum Subarray [Medium][RED]**
