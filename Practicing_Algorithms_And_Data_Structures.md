@@ -59,7 +59,9 @@
 - **LC-334. Increasing Triplet Subsequence [Medium] :yellow_circle:**
   - https://leetcode.com/problems/increasing-triplet-subsequence/
   - Two pointers, linear time - revisit later 
-
+- **LC-48. Rotate Image [Medium] :green_circle:**
+  - https://leetcode.com/problems/rotate-image/
+  - Solved, do not revisit
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
@@ -279,10 +281,7 @@
   - Took several hours to solve; Revisit later
 - **LC-179. Largest Number [Medium] :red_circle:**
   - Solved, but took long time + there is easier solution
-  - REVISIT 
-- **LC-48. Rotate Image [Medium] :green_circle:**
-  - https://leetcode.com/problems/rotate-image/
-  - Solved, do not revisit
+  - REVISIT
 - **150. Evaluate Reverse Polish Notation [Medium] :green_circle:**
   - https://leetcode.com/problems/evaluate-reverse-polish-notation/
   - Solved, do not revisit
