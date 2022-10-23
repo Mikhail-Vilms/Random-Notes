@@ -39,6 +39,9 @@
 - **LC-160. Intersection of Two Linked Lists [Easy] :green_circle:**
   - https://leetcode.com/problems/intersection-of-two-linked-lists/
   - Solved on the first attempt; do not re-iterate
+- **LC-2. Add Two Numbers [Medium] :green_circle:**
+  - https://leetcode.com/problems/add-two-numbers/
+  - Solved on the first attempt; do not re-visit
 
 ### Array or Matrix
 - **LC-189. Rotate Array [Medium] :red_circle:**
