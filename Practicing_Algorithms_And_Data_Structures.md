@@ -305,7 +305,9 @@
 - **LC-150. Evaluate Reverse Polish Notation [Medium] :green_circle:**
   - https://leetcode.com/problems/evaluate-reverse-polish-notation/
   - Solved, do not revisit
-
+- **LC-172. Factorial Trailing Zeroes [Medium] :green_circle:**
+  - https://leetcode.com/problems/factorial-trailing-zeroes/
+  - Pure math, solved, do not revisit
 
 ### TODO
 - **LC-37. Sudoku Solver**
