@@ -29,6 +29,11 @@
 - **LC-21. Merge Two Sorted Lists [Easy] :green_circle:**
   - https://leetcode.com/problems/merge-two-sorted-lists/
   - successful first attempt - do not return to this one
+- **LC-23. Merge k Sorted Lists [Hard] :yellow_circle:**
+  - https://leetcode.com/problems/merge-k-sorted-lists/
+  - There are two solutions:
+  - Heap and merging 2-by-2
+  - https://leetcode.com/problems/merge-k-sorted-lists/solution/
 - **LC-19. Remove Nth Node From End of List [Easy] :green_circle:**
   - https://leetcode.com/problems/remove-nth-node-from-end-of-list/
   - As usually, two pointers - traverse once
