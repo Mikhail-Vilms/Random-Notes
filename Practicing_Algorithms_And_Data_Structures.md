@@ -74,7 +74,9 @@
 - **LC-48. Rotate Image [Medium] :green_circle:**
   - https://leetcode.com/problems/rotate-image/
   - Solved, do not revisit
-
+- **LC-41. First Missing Positive [Hard] :red_circle:**
+  - https://leetcode.com/problems/first-missing-positive/
+  - tricky problem; simple solution; REVISIT LATER
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
