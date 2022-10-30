@@ -198,8 +198,9 @@
 - **LC-347. Top K Frequent Elements**
   - https://leetcode.com/problems/top-k-frequent-elements/
   - Solved 
-
-
+- **LC-239. Sliding Window Maximum [Medium] :yellow_circle:**
+  - https://leetcode.com/problems/sliding-window-maximum/
+  - Seems like might be better solution with linear time
 
 ### Backtracking
 - *:book: Backtracking is an algorithm for finding all solutions by exploring all potential candidates. If the solution candidate turns to be not a solution (or at least not the last one), backtracking algorithm discards it by making some changes on the previous step, i.e. backtracks and then try again.*
@@ -216,10 +217,9 @@
 - LC-47. **Permutations II [Medium][RED]**
   - https://leetcode.com/problems/permutations-ii/
   - return and repeat
-- LC-22. Generate Parentheses
+- LC-22. **Generate Parentheses [Easy] :green_circle:**
   - https://leetcode.com/problems/generate-parentheses/submissions/
   - Solved right away. Do not revisit this one
-
 
 ### Graph
 - **LC-207. Course Schedule [Medium] :yellow_circle:**
