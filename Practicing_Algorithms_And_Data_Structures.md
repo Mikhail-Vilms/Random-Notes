@@ -77,6 +77,10 @@
 - **LC-41. First Missing Positive [Hard] :red_circle:**
   - https://leetcode.com/problems/first-missing-positive/
   - tricky problem; simple solution; REVISIT LATER
+- **LC-315. Count of Smaller Numbers After Self [Hard] :red_circle: :red_circle: :red_circle:**
+  - https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+  - Seems like WAY TOO HARD problem for the normal interview; Never solved this one - just looked at solution; 
+
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
