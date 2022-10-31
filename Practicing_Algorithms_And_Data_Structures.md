@@ -127,6 +127,14 @@
 - **LC-1. Two Sum [Easy] :yellow_circle:**
   - https://leetcode.com/problems/two-sum/
   - **REVISIT**
+- **LC-349. Intersection of Two Arrays [Easy] :green_circle:**
+  - https://leetcode.com/problems/intersection-of-two-arrays/
+- **LC-350. Intersection of Two Arrays II [Easy] :green_circle:**
+  - https://leetcode.com/problems/intersection-of-two-arrays-ii/
+  - https://leetcode.com/problems/intersection-of-two-arrays-ii/discuss/1468295/Python-2-approaches-and-3-Follow-up-Questions-Clean-and-Concise
+    - *What if the given array is already sorted? How would you optimize your algorithm?*
+    - *What if nums1's size is small compared to nums2's size? Which algorithm is better?*
+    - *What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?*
 - **LC-15. 3Sum [Medium] :yellow_circle:**
   - https://leetcode.com/problems/3sum/ 
   - **REVISIT**
