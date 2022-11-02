@@ -80,7 +80,9 @@
 - **LC-315. Count of Smaller Numbers After Self [Hard] :red_circle: :red_circle: :red_circle:**
   - https://leetcode.com/problems/count-of-smaller-numbers-after-self/
   - Seems like WAY TOO HARD problem for the normal interview; Never solved this one - just looked at solution; 
-
+- **LC-329. Longest Increasing Path in a Matrix [Hard] :green_circle:**
+  - https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+  - Really not sure why this one is marked as "hard" - just iterate through every element + memoization to avoid repetitions; Pretty straightforward; DO NOT REVISIT
 
 ### Binary Tree
 - Binary Tree Preorder Traversal https://leetcode.com/problems/binary-tree-preorder-traversal/
