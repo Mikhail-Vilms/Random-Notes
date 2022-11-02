@@ -327,6 +327,9 @@
 - **LC-172. Factorial Trailing Zeroes [Medium] :green_circle:**
   - https://leetcode.com/problems/factorial-trailing-zeroes/
   - Pure math, solved, do not revisit
+- **127. Word Ladder [Hard] :yellow_circle:****
+  - https://leetcode.com/problems/word-ladder/
+  - Solved using BFS - rather easy implementation; but there is another approach based on "adjacency list" - depends on input parameters maybe faster
 
 ### TODO
 - **LC-37. Sudoku Solver**
