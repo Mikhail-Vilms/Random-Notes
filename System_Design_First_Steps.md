@@ -5,6 +5,7 @@
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
+- **[HTTP Long Polling](#HTTP-Long-Polling)**
 - **[Domain Name Service](#domain-name-service)**
 
 #### Horizontal VS Vertical Scaling
