@@ -329,9 +329,12 @@
 - **LC-172. Factorial Trailing Zeroes [Medium] :green_circle:**
   - https://leetcode.com/problems/factorial-trailing-zeroes/
   - Pure math, solved, do not revisit
-- **127. Word Ladder [Hard] :yellow_circle:****
+- **LC-127. Word Ladder [Hard] :yellow_circle:**
   - https://leetcode.com/problems/word-ladder/
   - Solved using BFS - rather easy implementation; but there is another approach based on "adjacency list" - depends on input parameters maybe faster
+- **LC-218. The Skyline Problem [Hard] :red_circle:**
+  - https://leetcode.com/problems/the-skyline-problem
+  - Solved by myself - solution can be improved - attached at the bottome of the file
 
 ### TODO
 - **LC-37. Sudoku Solver**
@@ -340,3 +343,137 @@
 
 ### Links
 - https://medium.com/@sandeep.kumar.ece16/microsoft-interview-questions-bb1e576fd37f
+
+### Appendix
+- LC-218. The Skyline Problem
+```
+public class Solution {
+    public IList<IList<int>> res = new List<IList<int>>();
+    public SortedDictionary<int, int> heights = new SortedDictionary<int, int>();
+
+    public IList<IList<int>> GetSkyline(int[][] buildings) {
+        // create list of building - from left to right
+        List<Building> listOfBuildings = new List<Building>();
+        foreach(int[] b in buildings){
+            listOfBuildings.Add(new Building(){
+                L = b[0],
+                R = b[1],
+                H = b[2]
+            });
+        }
+        
+        PriorityQueue<Building,int> heapOfBuildigs = new PriorityQueue<Building,int>();
+        
+        for(int i = 0; i < listOfBuildings.Count; i++){
+            Building building = listOfBuildings[i];
+
+            // ~~~ HANDLE LEFT EDGE OF THE BUILDING ~~~ :
+
+            // Add res if building is higher than everything else:
+            if (heights.Count == 0 || building.H > GetMaxHeight()){
+                // Console.WriteLine("!!! L, H:" + building.L + "; " + building.H);
+                AppendToRes(building.L, building.H);
+            }
+
+            // Add current building to the heap that tracks right edges:
+            // Console.WriteLine("Enqueued: " + building.R + "; " + building.H);
+            heapOfBuildigs.Enqueue(building, building.R);
+            AddHeight(building.H);
+
+            if (i == listOfBuildings.Count - 1){
+                break;
+            }
+
+            // ~~~ HANDLE RIGHT EDGES OF THE BUILDINGS ~~~ :
+
+
+
+            // Handle all right edges before the start (left edge) of next buiding 
+            while(heapOfBuildigs.Count > 0 && heapOfBuildigs.Peek().R <= listOfBuildings[i+1].L){
+                
+                Building removedBuilidng = heapOfBuildigs.Dequeue(); // take the first(most left) right edge of the building
+                // Console.WriteLine("Dequeued: " + removedBuilidng.R + "; " + removedBuilidng.H);
+                RemoveHeight(removedBuilidng.H);
+
+                if (heights.Count == 0){
+                    // Console.WriteLine("!!! R, H:" + removedBuilidng.R + "; 0");
+                    AppendToRes(removedBuilidng.R, 0);
+                } else {
+                    if (GetMaxHeight() != res[res.Count - 1][1]){
+                        // Console.WriteLine("!!! R, H:" + removedBuilidng.R + ";" + GetMaxHeight());
+                        AppendToRes(removedBuilidng.R, GetMaxHeight());
+                    }
+                }
+            }
+        }
+
+        // Handle right edges of left-overs
+        while(heapOfBuildigs.Count > 0){
+            Building removedBuilidng = heapOfBuildigs.Dequeue(); // take the first(most left) right edge of the building
+            // Console.WriteLine("Dequeued: " + removedBuilidng.R + "; " + removedBuilidng.H);
+            RemoveHeight(removedBuilidng.H);
+
+            if (heights.Count == 0){
+                AppendToRes(removedBuilidng.R, 0);
+            } else {
+                if (GetMaxHeight() != res[res.Count - 1][1]){
+                    AppendToRes(removedBuilidng.R, GetMaxHeight());
+                }
+            }
+        }
+
+        IList<IList<int>> finalRes = new List<IList<int>>();
+        
+        foreach(IList<int> pair in res){
+            if (finalRes.Count == 0){
+                finalRes.Add(pair);
+                continue;
+            }
+            if (pair[1] == finalRes.Last()[1]){
+                continue;
+            }
+            finalRes.Add(pair);
+        }
+
+        return finalRes; 
+    }
+
+    public void AddHeight(int h){
+        if (heights.ContainsKey(h)){
+            heights[h]++;
+        } else {
+            heights.Add(h, 1);
+        }
+    }
+
+    public void RemoveHeight(int h){
+        heights[h]--;
+        if (heights[h] == 0){
+            heights.Remove(h);
+        }
+    }
+
+    public int GetMaxHeight(){
+        return heights.Keys.Last();
+    }
+
+    public void AppendToRes(int x, int h){
+        if (res.Count == 0){
+            res.Add(new List<int>(){x, h});
+            return;
+        }
+        if (x == res.Last()[0]){
+            res.Last()[1] = h;
+            return;
+        }
+        res.Add(new List<int>(){x, h});
+    }
+}
+
+public class Building {
+    public int L {get; set; }
+    public int R {get; set; }
+    public int H {get; set;}
+}
+```
+
