@@ -1,6 +1,7 @@
 # System Design Problems
 
 ## Distributed Cache
+---
 #### Stepping Into Distributed World
 - We can start with a really straightforward idea: we move LRU cache that we just implemented to it's own host
   - One of the benefits of this approach: we can make each host to store only chunk of data - called shard. 
@@ -18,4 +19,6 @@
   - And dedicated cluster also gives us flexibility in chosing hardware: we can shoose hardware host with a lot of memory and high network bandwith. Public clouds nowdays provide variety of memory-optimized hardware
   - As for co-located cache, the biggest benefit is that we do not need a separate cluster: this helps to save on hardware cost and usually less operationally intensive than a separate cluster
   - And with co-location, both the service and cache scale out at the same time: we just add more hosts to the service cluster when needed
+---
 ![image](https://user-images.githubusercontent.com/57194114/201296359-1ac5726b-6de3-4275-a061-0a009b97e0b7.png)
+---
