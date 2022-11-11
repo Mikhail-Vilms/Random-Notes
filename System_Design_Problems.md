@@ -16,4 +16,6 @@
   - Both the cache and the service do not share memory and CPU anymore and can scale on their own
   - Dedicated cluster can be used by multiple services and we can utilize the same cluster across several microservices our team owns
   - And dedicated cluster also gives us flexibility in chosing hardware: we can shoose hardware host with a lot of memory and high network bandwith. Public clouds nowdays provide variety of memory-optimized hardware
-  - 
+  - As for co-located cache, the biggest benefit is that we do not need a separate cluster: this helps to save on hardware cost and usually less operationally intensive than a separate cluster
+  - And with co-location, both the service and cache scale out at the same time: we just add more hosts to the service cluster when needed
+![image](https://user-images.githubusercontent.com/57194114/201296359-1ac5726b-6de3-4275-a061-0a009b97e0b7.png)
