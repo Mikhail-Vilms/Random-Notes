@@ -92,3 +92,9 @@ added.
     - It would be great if we could somehow monitor cache server health and if something bad happens to the cache server, all service hosts are notified and stop sending any requests to the unavailable cache server.
     - And if a new cache server is added, all service hosts are also notified and start sending
 requests to it.
+- Option 3:
+  - To implement this approach, we will need a new service, configuration service, whose purpose is to discover cache hosts and monitor their health.
+  - Each cache server registers itself with the configuration service and sends heartbeats
+to the configuration service periodically.
+  - As long as heartbeats come, server is keep registered in the system. If heartbeats stop coming, the configuration service unregisters a cache server that is no longer alive or inaccessible.
+  - 
