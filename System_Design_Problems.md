@@ -113,5 +113,7 @@ to the configuration service periodically.
     - And connection between cache client and cache server is done over TCP or UDP, also fast.
     - So, performance is there.
   - *But what about other two: scalability and availability?*
-  - 
+    - Scalability is also there. We can easily create more shards and have more data stored in memory.
+    - Although those of you who did data sharding in real systems know that **common problem for shards is that some of them may become hot: meaning that some shards process much more requests then their peers, resulting in a bottleneck**.
+
 ---
