@@ -86,3 +86,9 @@ file periodically.
 storage service.
   - To implement this option, we may introduce a daemon process that runs on each service
 host and polls data from the storage once a minute or several minutes.
+  - *Problem*: The drawback of this approach is that we still need to maintain the file manually. 
+    - We have to make changes and deploy it to the shared storage every time cache host dies or new host is
+added. 
+    - It would be great if we could somehow monitor cache server health and if something bad happens to the cache server, all service hosts are notified and stop sending any requests to the unavailable cache server.
+    - And if a new cache server is added, all service hosts are also notified and start sending
+requests to it.
