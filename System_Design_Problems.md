@@ -22,3 +22,17 @@
 ---
 ![image](https://user-images.githubusercontent.com/57194114/201296359-1ac5726b-6de3-4275-a061-0a009b97e0b7.png)
 ---
+#### Choosing a cache host(naive approach)
+- We have implemented a LRU cache and made it runnable as a separate process, we told cache clients to call the cache process using either TCP or UDP connection.
+  - But how do cache clients decide which cache shard to call?
+- Let's discuss a naiva approach: a MOD function
+  - Based on the item key and some hash function we compute a hash
+  - We divide this hash number by a number of available cache hosts and take a reminder
+  - We treat this remainder as an index in the array of the cache hosts
+  - For example, we have 3 cache hosts and hash is equal to8; 8 mod 3 is 2, so the cache host with index 3 will be selected by the service to store this item in the cache and while retrieving the item from the cache.
+  - *Problem*: But what happens when we add a new cache host (or some host dies due to hardware failures)? The MOD function will start to produce completely different results
+  - Service hosts will start choosing completely different cache hosts than they did previuosly - resulting in a high percentage of cache misses.
+  - This is rarely acceptable in production systems and usually used for testing purposes only
+---
+- ![image](https://user-images.githubusercontent.com/57194114/201452558-39c20ae4-e816-4d4a-895f-fb07f2fe29eb.png)
+---
