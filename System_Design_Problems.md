@@ -67,3 +67,22 @@
   - And if cache host is unavailable, client proceeds as though it was a cache miss.
 - ![image](https://user-images.githubusercontent.com/57194114/201478007-dbf98373-0f27-43fb-8ed3-38a535d219a5.png)
 ---
+#### Maintaining a List of Cache Servers
+- *Question*: As you may see, list of cache hosts is the most important knowledge for clients. And what we need to understand, is how this list is created, maintained and shared among all the clients.
+- Let’s discuss several options:
+- Option 1:
+  - In the first option we store a list of cache hosts in a file and deploy this file to service
+hosts using some continuous deployment pipeline.
+  - We can use configuration management tools such as chef and puppet to deploy file to
+every service host. 
+  - This is the simplest option. But not very flexible.
+  - *Problem*: Every time list changes we need to make a code change and deploy it out to every service
+host.
+- Option 2:
+  - What if we keep the file, but simplify the deployment process?
+  - Specifically, we may put the file to the shared storage and make service hosts poll for the
+file periodically.
+  - All service hosts try to retrieve the file from some common location, for example S3
+storage service.
+  - To implement this option, we may introduce a daemon process that runs on each service
+host and polls data from the storage once a minute or several minutes.
