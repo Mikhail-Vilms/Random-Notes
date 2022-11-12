@@ -49,4 +49,9 @@
   - In this case, host 4 is storing the item
 - ![image](https://user-images.githubusercontent.com/57194114/201453326-146c4285-5bad-4209-964c-64d5c2afc43b.png)
 ---
--
+- And what happens when we add new host to the cache cluster?
+  - Same as before: we calculate a hash for a new host and this new host becomes responsible for its range of keys on the circle.
+  - While its counter clockwise neighbor (host 4 in this case) becomes responsible for a smaller range
+  - In other words, host 6 took responsibility for a subset of what was formerly owned by host 4
+  - **And nothing has changed for all the other hosts** - which is exactly what we wanted: to minimize a number of keys we need to re-hash
+- ![image](https://user-images.githubusercontent.com/57194114/201453656-554d2c0c-488e-44e0-9938-5e50588eff01.png)
