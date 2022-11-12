@@ -45,3 +45,8 @@
   - Specifically, each host will own the cache items that live between this host and the nearest clockwise neighbor
 - ![image](https://user-images.githubusercontent.com/57194114/201453015-905072a4-425b-4ba9-9f96-b0746772b174.png)
 ---
+- So, for a particular item, we need to look uo what cache host stores it, we calculate a hash and move backwards to identify the host.
+  - In this case, host 4 is storing the item
+- ![image](https://user-images.githubusercontent.com/57194114/201453326-146c4285-5bad-4209-964c-64d5c2afc43b.png)
+---
+-
