@@ -56,6 +56,7 @@
   - **And nothing has changed for all the other hosts** - which is exactly what we wanted: to minimize a number of keys we need to re-hash
 - **Consistent hashing is much better than MOD hashing, as significantly smaller fraction of keys is re-hashed when new host is added or host is removed from the cache cluster**
 - ![image](https://user-images.githubusercontent.com/57194114/201453656-554d2c0c-488e-44e0-9938-5e50588eff01.png)
+---
 #### Cache Client
 - *Question*: Now we know how cache cluster host is selected for both put and get, but who is actually doing this selection? On the service side, who is responsible for running all these hash calculations and routing requests to the selected cache host?
   - Cache client is that component. It’s a small and lightweight library, that is integrated with the service code and is responsible for the cache host selection.
@@ -64,3 +65,5 @@
   - Client stores list of cache hosts in sorted order (for a fast host lookup) and binary search can be used to find a cache server that owns the key.
   - Cache client talks to cache hosts using TCP or UDP protocol.
   - And if cache host is unavailable, client proceeds as though it was a cache miss.
+- ![image](https://user-images.githubusercontent.com/57194114/201478007-dbf98373-0f27-43fb-8ed3-38a535d219a5.png)
+---
