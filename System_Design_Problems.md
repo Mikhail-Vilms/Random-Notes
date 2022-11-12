@@ -22,7 +22,7 @@
 ---
 ![image](https://user-images.githubusercontent.com/57194114/201296359-1ac5726b-6de3-4275-a061-0a009b97e0b7.png)
 ---
-#### Choosing a cache host(naive approach)
+#### Choosing a Cache Host (Naive Approach)
 - We have implemented a LRU cache and made it runnable as a separate process, we told cache clients to call the cache process using either TCP or UDP connection.
   - But how do cache clients decide which cache shard to call?
 - Let's discuss a naiva approach: a MOD function
@@ -33,6 +33,14 @@
   - *Problem*: But what happens when we add a new cache host (or some host dies due to hardware failures)? The MOD function will start to produce completely different results
   - Service hosts will start choosing completely different cache hosts than they did previuosly - resulting in a high percentage of cache misses.
   - This is rarely acceptable in production systems and usually used for testing purposes only
----
 - ![image](https://user-images.githubusercontent.com/57194114/201452558-39c20ae4-e816-4d4a-895f-fb07f2fe29eb.png)
 ---
+#### Choosing a Cache Host (Consistent Hashing)
+- A much better option is to use "consistent hashing"
+  - Consistent hashing is based on mapping each object to a point on a circle
+  - We pick an arbitrary point on this circle and assign as 0 number to it
+  - We move clockwise along the circle and assign values
+  - We then take a list of cache hosts and calculate a hash for each host based on a host identifier - for example IP address or name
+  - The hash value tells us where on the consistent hashing circle that host lives
+  - And the reason we do all that, is that we want to assign a list of hash ranges each cache host owns
+  - Specifically, each host will own the cache items that live between this host and the nearest clockwise neighbor.
