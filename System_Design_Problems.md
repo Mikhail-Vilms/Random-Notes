@@ -42,4 +42,6 @@
   - We then take a list of cache hosts and calculate a hash for each host based on a host identifier - for example IP address or name
   - The hash value tells us where on the consistent hashing circle that host lives
   - And the reason we do all that, is that we want to assign a list of hash ranges each cache host owns
-  - Specifically, each host will own the cache items that live between this host and the nearest clockwise neighbor.
+  - Specifically, each host will own the cache items that live between this host and the nearest clockwise neighbor
+- ![image](https://user-images.githubusercontent.com/57194114/201453015-905072a4-425b-4ba9-9f96-b0746772b174.png)
+---
