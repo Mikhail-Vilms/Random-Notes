@@ -97,4 +97,7 @@ requests to it.
   - Each cache server registers itself with the configuration service and sends heartbeats
 to the configuration service periodically.
   - As long as heartbeats come, server is keep registered in the system. If heartbeats stop coming, the configuration service unregisters a cache server that is no longer alive or inaccessible.
-  - 
+  - And every cache client grabs the list of registered cache servers from the configuration service.
+- The third option is the hardest from implementation standpoint and its operational cost is higher. But it helps to fully automate the list maintenance. 
+- ![image](https://user-images.githubusercontent.com/57194114/201479082-c4581126-0a02-4bde-be06-cef7f3085835.png)
+---
