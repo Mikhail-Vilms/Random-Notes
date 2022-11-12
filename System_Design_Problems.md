@@ -101,3 +101,17 @@ to the configuration service periodically.
 - The third option is the hardest from implementation standpoint and its operational cost is higher. But it helps to fully automate the list maintenance. 
 - ![image](https://user-images.githubusercontent.com/57194114/201479082-c4581126-0a02-4bde-be06-cef7f3085835.png)
 ---
+#### Summary
+- Let’s quickly summarize what we have discussed so far:
+  - To store more data in memory we partition data into shards. And put each shard on its own server.
+  - Every cache client knows about all cache shards. And cache clients use consistent hashing algorithm to pick a shard for storing and retrieving a particular cache key.
+- Let’s recall non-functional requirements we defined in the beginning of our design:
+  - We wanted to build fast, highly scalable and available distributed cache.
+  - *Have we built a highly performant cache?* 
+    - Yes. Least recently used cache implementation uses constant time operations.
+    - Cache client picks cache server in log n time, very fast.
+    - And connection between cache client and cache server is done over TCP or UDP, also fast.
+    - So, performance is there.
+  - *But what about other two: scalability and availability?*
+  - 
+---
