@@ -33,6 +33,7 @@
   -  While IP is a connectionless protocol in which each independent unit of data is unrelated to any other data units and travels through the internet.
 - ![image](https://user-images.githubusercontent.com/57194114/201549140-931827aa-634f-4f2e-8bc2-d475ee46e5f9.png)
 
+#### 
 ---
 
 #### Horizontal VS Vertical Scaling
