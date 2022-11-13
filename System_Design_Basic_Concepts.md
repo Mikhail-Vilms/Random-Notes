@@ -33,7 +33,25 @@
   -  While IP is a connectionless protocol in which each independent unit of data is unrelated to any other data units and travels through the internet.
 - ![image](https://user-images.githubusercontent.com/57194114/201549140-931827aa-634f-4f2e-8bc2-d475ee46e5f9.png)
 
-#### 
+#### How does the Client-Server Model work?
+- The data flow is unidirectional, which forms a cycle. It is initiated when a client requests some data, and server processes the request and sends some sort of data back to the client via a protocol. 
+- Clients cannot directly talk to each other.
+- Data flow in a client-server architecture will look like this:
+  - Client requests data from server
+  - Load balancer routes the request to an appropriate server
+  - Server processes the client request and queries an appropriate database for some data
+  - Database returns the queried data back to server
+  - Server processes the data and sends data back to client
+- To better understand the data flow in a client-server architecture, let’s explore how browser (Client) interacts with servers?
+  - User enters the website URL
+  - Browser sends a request to the DNS server to look up the IP address of webserver.
+  - DNS sends the IP address of webserver to the browser
+  - Now browser sends an HTTP/HTTPS request to the IP address of webserver.
+  - Web server sends back necessary files for the website.
+  - Now browser renders the files and displays the website.
+
+#### Client-Server vs Peer-to-Peer Architecture
+- Here are some major differences between peer-to-peer and client-server architecture
 ---
 
 #### Horizontal VS Vertical Scaling
