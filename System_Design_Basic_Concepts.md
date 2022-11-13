@@ -52,6 +52,39 @@
 
 #### Client-Server vs Peer-to-Peer Architecture
 - Here are some major differences between peer-to-peer and client-server architecture
+- ![image](https://user-images.githubusercontent.com/57194114/201550121-0d85d5d8-cc06-4642-b685-e1074b7ea06e.png)
+
+#### Advantages of client server architecture
+- **Centralised Management:**
+  - Client server architecture is a centralised network of systems with all data in a single place, with complete leverage to control processes and activities. 
+  - One can easily share resources and data across various platforms, and users have the authority to access any file residing in the central storage at any time. 
+- **Flexibility:**
+  -  Since data being passed between the client and server and server services are entirely up to the programmer.
+  -  So there could be several ways to use client-server architecture to solve problems that may arise in the future.
+  -  It can also be easy to combine with other types of architecture on the client or server sides.
+- **Extensibility:**
+  -  The system can be updated based on changes in functional and non-functional requirements without altering the client-server architecture or disrupting service.   
+- **Transparency:**
+  - Clients only make requests to the server with their input data, so they don’t see how servers will handle the request.
+  - It may seem like a single, central server for a user.
+- **Availability:**
+  - Most of the time, servers do not need to shut down or restart for a long duration.
+  - So server uptime is possible during maintenance with server duplication.
+  - On another side, there is a clear separation between clients and servers because clients are consumers, and servers are service providers. 
+  - If several servers offer the same services, system can still function if one or more servers fail.  
+- **Scalability:**
+  - Capable of adding or removing servers in the network (Horizontal scaling) or migrating to larger and faster server machines (Vertical scaling). 
+
+#### Disadvantages of client server architecture
+- There could be more chances of failure due to centralised control.
+  - Many clients can send simultaneous requests to the server (traffic congestion), which might overload the server and drastically slow down performance. 
+  - This could also lead to a server failure, in which case the whole system goes down, and clients may not get any responses back.
+- Servers are much more powerful than client computers, which means they are more expensive. It also needs some human resources with networking and infrastructure knowledge to manage the system.
+- Vulnerable to Denial of Service (DOS) attacks because the number of servers is considerably smaller than the number of clients.
+- Data packets may be modified during transmission, so the loss of helpful information can be also common.
+
+#### Links
+- https://www.enjoyalgorithms.com/blog/client-server-architecture
 ---
 
 #### Horizontal VS Vertical Scaling
