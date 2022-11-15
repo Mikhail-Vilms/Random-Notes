@@ -89,6 +89,19 @@
 - https://www.enjoyalgorithms.com/blog/client-server-architecture
 ---
 
+
+## Latency
+### What is latency?
+- The browser (client) sends a signal to the server whenever a request is made. 
+- Servers process the requests and retrieve the information to bring it back to the client. 
+- So, latency is the time interval between the start of a request from the client end to delivering the result back to the client by the server, i.e., the round trip time between the client and the server.
+- ![image](https://user-images.githubusercontent.com/57194114/201819583-dd886d82-f48d-4b80-91a5-0fbc59f565f4.png)
+### How does Latency work?
+- **Latency is nothing other than the estimated time the client has to wait for after starting the request to receive the result.**
+
+---
+
+
 #### Horizontal VS Vertical Scaling
 
 #### Distributed System
