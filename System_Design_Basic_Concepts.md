@@ -1,6 +1,6 @@
 # System Design: Basic Concepts
 
-#### Basic Concepts
+### List of Basic Concepts
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
 - **[Latency]**
