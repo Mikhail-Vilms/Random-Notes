@@ -3,7 +3,7 @@
 ### List of Basic Concepts
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
-- **[Latency]**
+- **[Latency](#Latency)**
 - **[Horizontal VS Vertical Scaling](#Horizontal-VS-Vertical-Scaling)**
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
