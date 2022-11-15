@@ -132,6 +132,27 @@
   - The report generally includes details such as percentage Loss, Average Latency, etc.
 
 ### Latency optimization
+Latency restricts the performance of the system; hence it is necessary to optimize it. We can reduce it by adopting the following measures:
+- **HTTP/2:** 
+  - We can reduce it by the use of HTTP/2.
+  - It allows parallelized transfers and minimizes the round trips from the sender to the receiver, which are highly effective in reducing the latency.
+- **Less external HTTP requests:**
+  - Latency increases because of third-party services.
+  - By reducing the number of external HTTP requests, the system’s latency gets optimized as third-party services affect both speed and quality of the application.
+- **CDN:**
+  - CDNs proved to be a boon in reducing latency.
+  - CDN caches the resources in multiple locations worldwide and reduces the request and response travel time.
+  - So instead of going back to the origin server, the request can be fetched using the cached resources closer to the clients.
+- **Browser Caching:**
+  - Browser Caching can also help reduce the latency by caching specific resources locally to decrease the number of requests made to the server. 
+- **Disk I/O:**
+  - The goal is to optimize algorithms to minimize the impact of disk I/O.
+  - Hence, instead of often writing to disk, use write-through caches or in-memory databases or combine writes where possible or use fast storage systems, such as SSDs.
+- As a developer, latency can also be optimized by making smarter choices regarding storage layer, data modelling, outbound call fanout, etc. Here are some ways to optimize it at an **application level:**
+  - Inefficient algorithms are the most apparent sources of latency in code. It is necessary to avoid unnecessary loops or nested expensive operations.
+  - Use design patterns that avoid locking as multithreaded locks introduce latency.
+  - Use an asynchronous programming model to utilize better hardware resources as blocking operations cause long wait times.
+  - Limiting the unbounded queue depths and providing back pressure typically lead to less wait time in the code resulting in more predictable latencies.
 ---
 
 #### Horizontal VS Vertical Scaling
