@@ -91,13 +91,23 @@
 
 
 ## Latency
+
 ### What is latency?
 - The browser (client) sends a signal to the server whenever a request is made. 
 - Servers process the requests and retrieve the information to bring it back to the client. 
 - So, latency is the time interval between the start of a request from the client end to delivering the result back to the client by the server, i.e., the round trip time between the client and the server.
 - ![image](https://user-images.githubusercontent.com/57194114/201819583-dd886d82-f48d-4b80-91a5-0fbc59f565f4.png)
-### How does Latency work?
-- **Latency is nothing other than the estimated time the client has to wait for after starting the request to receive the result.**
+
+### How does latency work?
+**Latency is nothing other than the estimated time the client has to wait for after starting the request to receive the result.**
+- Suppose you interact with an e-commerce website, you liked something, and added it to the cart. 
+- Now when you press the “Add to Cart” button, the following events will happen:
+  - The instant the “Add to Cart” button is pressed, the clock for latency starts, and the browser initiate a request to the servers.
+  - The server acknowledges the request and processes it.
+  - The server replies to the request, the request reaches your browser, and the product gets added to your Cart.
+  - You can start the stopwatch in the first step and stop the stopwatch in the last step, and the diff would be the latency. 
+
+### What causes Latency?
 
 ---
 
