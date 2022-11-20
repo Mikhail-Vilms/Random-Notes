@@ -26,7 +26,9 @@
   - The **data section** stores global and static variables, allocated and initialized before executing the main program.
   - The **heap section** is used to manage dynamic memory allocation inside our program. In other words, it is the portion of memory where dynamically allocated memory resides i.e., memory allocation via new or malloc and memory deallocation via delete or free, etc.
   - The **stack section** stores local variables defined inside our program or function. Stack space is created for local variables when declared, and the space is freed up when they go out of scope.
-- ![image](https://user-images.githubusercontent.com/57194114/202914926-162ac4b4-65ff-4c0b-9ec3-b7d1af1f53af.png)
+- ![image](https://user-images.githubusercontent.com/57194114/202915005-2deb34f9-669d-4d40-874f-9c4630e69ed6.png)
+
+
 
 ---
 ## Client-Server Architecture
