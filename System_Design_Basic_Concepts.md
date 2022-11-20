@@ -13,6 +13,22 @@
 - **[Domain Name Service](#domain-name-service)**
 
 ---
+## Process Management in Operating System
+
+#### Process
+- In simple words, a program in execution is called a process
+- It is an instance of a program that actually runs, i.e., an entity that can be assigned and executed on a processor
+- Two essential process elements are **program code** and a **set of data** associated with that code.
+
+#### Process Memory
+- Process memory is divided into four sections:
+  - The **program memory** stores the compiled program code, read in form of non-volitile storage when the program is launched
+  - The **data section** stores global and static variables, allocated and initialized before executing the main program.
+  - The **heap section** is used to manage dynamic memory allocation inside our program. In other words, it is the portion of memory where dynamically allocated memory resides i.e., memory allocation via new or malloc and memory deallocation via delete or free, etc.
+  - The **stack section** stores local variables defined inside our program or function. Stack space is created for local variables when declared, and the space is freed up when they go out of scope.
+- ![image](https://user-images.githubusercontent.com/57194114/202914926-162ac4b4-65ff-4c0b-9ec3-b7d1af1f53af.png)
+
+---
 ## Client-Server Architecture
 - The client-server architecture is a distributed application framework consisting of clients and servers in which server hosts, manages, and delivers client services. 
 - Clients are connected to a central server, and they communicate over internet connection through computer network. 
