@@ -4,6 +4,7 @@
 - **[Process Management in Operating System](#Process-Management-in-Operating-System)**
   - **[Process Memory](#Process-Memory)**
   - **[Process Control Block](#Process-Control-Block)**
+  - **[States of a Process in Operating System](#States-of-a-Process-in-Operating-System)**
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
 - **[Latency](#Latency)**
