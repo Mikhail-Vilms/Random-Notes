@@ -2,6 +2,8 @@
 
 ### List of Basic Concepts
 - **[Process Management in Operating System](#Process-Management-in-Operating-System)**
+  - **[Process Memory](#Process-Memory)**
+  - **[Process Control Block](#Process-Control-Block)**
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
 - **[Latency](#Latency)**
@@ -26,10 +28,24 @@
   - The **data section** stores global and static variables, allocated and initialized before executing the main program.
   - The **heap section** is used to manage dynamic memory allocation inside our program. In other words, it is the portion of memory where dynamically allocated memory resides i.e., memory allocation via new or malloc and memory deallocation via delete or free, etc.
   - The **stack section** stores local variables defined inside our program or function. Stack space is created for local variables when declared, and the space is freed up when they go out of scope.
-- ![image](https://user-images.githubusercontent.com/57194114/202915005-2deb34f9-669d-4d40-874f-9c4630e69ed6.png)
+- ![image](https://user-images.githubusercontent.com/57194114/202915150-ee07a87b-5b6b-4e58-8ee6-a5349925bd0a.png)
+- Note: The stack and heap sections start at opposite ends of the process's free space and grow towards each other. When they meet, a stack overflow error will occur, or a call to new memory allocation will fail due to insufficient memory available in a heap section.
 
-
-
+#### Process Control Block
+- https://en.wikipedia.org/wiki/Process_control_block
+  - A process control block (PCB) is a data structure used by computer operating systems to store all the information about a process. 
+  - It is also known as a process descriptor. 
+  - When a process is created (initialized or installed), the operating system creates a corresponding process control block.
+  - This specifies the process state i.e. new, ready, running, waiting or terminated.
+- A program executing as a process is uniquely determined by various parameters. These parameters are stored in a Process Control Block (PCB). It is a data structure which holds the following information:
+  - **Process Id**: A unique id associated with every process to distinguish it from other processes.
+  - **Process state**: A process can be in a start, ready, running, wait and terminated state.
+  - **CPU-Scheduling information:** This is related to priority level relative to the other processes and pointers to scheduling queues.
+  - **CPU registers and Program counter(???):** Need to be saved and restored when swapping processes in and out of the CPU.
+  - **I/O status information:** Includes I/O requests, I/O devices (e.g., disk drives) assigned to the process, and a list of files used by the process.
+  - **Memory-Management information(???):** Page tables or segment tables(???).
+  - **Accounting information(???):** User and kernel CPU time consumed, account numbers, limits, etc.
+- ![image](https://user-images.githubusercontent.com/57194114/202916501-6d172c78-b0ea-4cc2-a3f8-8bc73a607d39.png)
 ---
 ## Client-Server Architecture
 - The client-server architecture is a distributed application framework consisting of clients and servers in which server hosts, manages, and delivers client services. 
