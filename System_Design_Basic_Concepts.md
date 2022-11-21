@@ -211,7 +211,29 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - So critical question is: What is cache? In system design, cache is a high-speed data storage that stores a subset of data so that future requests for that data are served up faster.
 - In other words, caching allows us to reuse previously retrieved data efficiently.
 - ![image](https://user-images.githubusercontent.com/57194114/202938085-da3a5b93-eac3-4aa9-85b9-b9d057b93998.png)
+- Caching Examples:
+  - Web Browsers cache the HTML, CSS, JS, and images for faster access to the website when requested again.
+  - CDN store static files and help us to reduce latency.
+  - DNS is used to get the IP address of a query. So, rather than requesting the IP address multiple times, it can be stored in a cache storage, allowing us not to re-perform a DNS query again, and the web pages can be accessed more quickly.
 
+#### Types of Caching
+- **Application server cache**
+  - We can cache the data directly in the Application Layer.
+  - Every time a request is made to the service, it will return local, cached data quickly if it exists. 
+  - If it is not in the cache, it will query the data from the database.
+- **Global cache**
+  - In Global Caches, the same single cache space is used for all the nodes.
+  - Each of the application nodes queries the cache in the same way as a local one would be. 
+- **Distributed cache**
+  - The cache is usually broken up using a consistent hashing algorithm, and each of its nodes owns part of the cached data.
+  - If a requesting node is searching for a certain piece of data, it can easily use the hashing function to locate information from the distributed cache to decide if the data is available. 
+- **Content Distribution Network (CDN) (???)**
+  - When our pages serve huge amounts of static media, this is the best option.
+  - Suppose that the framework we are developing is not yet big enough to have a CDN of its own!
+  - “Using a lightweight HTTP server like apache, we can serve static media from a different subdomain such as “blog.enjoyalgorithms.com” and cut the DNS from your servers to a CDN layer.(???)
+  - ![image](https://user-images.githubusercontent.com/57194114/202943964-659be543-0d1b-4e59-b18b-390340f9ebfe.png)
+- **Client-Side Caches**
+- **ISP layer cache**
 ---
 
 #### Links
