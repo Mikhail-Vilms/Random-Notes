@@ -14,7 +14,7 @@
 - **[CAP Theorem](#CAP-Theorem)**
 - **[HTTP Long Polling](#HTTP-Long-Polling)**
 - **[Domain Name Service](#domain-name-service)**
-
+- **[Caching](#Caching)**
 ---
 ## Process Management in Operating System
 
@@ -204,6 +204,15 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 
 
 ### Domain Name Service
+
+---
+## Caching
+- Caching is the process of storing the results of a request in a cache or a temporary storage location so they can be accessed more quickly.
+- So critical question is: What is cache? In system design, cache is a high-speed data storage that stores a subset of data so that future requests for that data are served up faster.
+- In other words, caching allows us to reuse previously retrieved data efficiently.
+- ![image](https://user-images.githubusercontent.com/57194114/202938085-da3a5b93-eac3-4aa9-85b9-b9d057b93998.png)
+
+---
 
 #### Links
 - https://www.educative.io/blog/what-is-cap-theorem
