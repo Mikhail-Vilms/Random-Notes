@@ -15,6 +15,9 @@
 - **[HTTP Long Polling](#HTTP-Long-Polling)**
 - **[Domain Name Service](#domain-name-service)**
 - **[Caching](#Caching)**
+  - **[Types of Caching](#Types-of-Caching)**
+  - **[Cache Eviction Policy](#Cache-Eviction-Policy)**
+  - **[Cache Invalidation](#Cache-Invalidation)**
 ---
 ## Process Management in Operating System
 
