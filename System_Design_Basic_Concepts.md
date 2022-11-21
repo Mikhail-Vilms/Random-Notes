@@ -259,7 +259,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
     - Between cache and storage, we will have full data consistency.
     - Nothing can get lost in case of a crash, power failure, or other system disturbances.
     - In this case, however, writing latency would be higher since two different systems are written.
-    - // Seems like a choice for frequest reads - seldom writes
+    - // Seems like a choice for frequent reads - seldom writes
   - **Write around cache:**
     - The write directly goes to the DB, bypassing the cache.
     - Cache misses are increased because, in a cache error, the cache device reads the information from the Database.
@@ -273,7 +273,14 @@ Latency restricts the performance of the system; hence it is necessary to optimi
     - By having more than one replica that recognizes the writing in the cache, we can maximize this.
 
 #### ```Advantages of Caching```
-- **Improve Application Performance**
+- **Improve Application Performance:**
+  - Caching can be used to improve system performance and API latency. 
+- **Reduce Database Cost:**
+   - Caching can take up additional traffic to its cache server and reduce database traffic, eventually reducing database cost.
+- **Reduce the Load on the Backend:**
+  - Offloading the same request traffic from the main server to caching server would reduce the backend load.
+- **Increase Read Throughput (IOPS):**
+  - Caching server responds much faster than the main server for the cached key, which increases read throughput. 
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/caching-system-design-concept/
