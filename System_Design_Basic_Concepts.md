@@ -209,7 +209,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 ### Domain Name Service
 
 ---
-## Caching
+## ```Caching```
 - Caching is the process of storing the results of a request in a cache or a temporary storage location so they can be accessed more quickly.
 - So critical question is: What is cache? In system design, cache is a high-speed data storage that stores a subset of data so that future requests for that data are served up faster.
 - In other words, caching allows us to reuse previously retrieved data efficiently.
@@ -242,6 +242,19 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - ISP caching works in much the same way as browser caching.
   - Once you have visited a website, your ISP may cache those pages so that they appear to load faster the next time you visit them.
   - The main problem with this is that, unlike your browser cache, you can not delete these temporary files; instead, you have to wait until your ISP's cache expires and requests fresh copies of the files. 
+
+#### ```Cache Eviction Policy```
+- We need to delete existing items for new resources when the cache is complete. In fact, it is just one of the most popular methods to delete the least recently used object. The solution is to optimize the probability in the cache that the requesting resource exists.
+- Random Replacement: As the term suggests, we can randomly delete an entry.
+- Least frequently used (LFU): We can keep a count of how frequently an item is requested and delete the least frequently used.
+- Least Recently Used (LRU): In LRU, we delete the item that has been used least recently.
+- First In First Out (FIFO): The FIFO algorithm holds an object queue in the order that the objects have been loaded into the cache. It evicts one or more objects from the head when a cache misses and inserts a new object into the queue tail. Upon a cache hit, the list does not shift.
+
+#### ```Cache Invalidation```
+- Cache invalidation refers to when web cache proxies declare cached content as invalid, meaning it will no longer be served as the most recent piece of content when requested. 
+- The ultimate purpose, of course, is to ensure that the next time a client requests the affected content, the client receives the newest version at all times. 
+- There are primarily three kinds of systems for caching:
+  -  Write through cache:
 ---
 
 #### Links
