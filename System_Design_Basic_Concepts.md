@@ -254,7 +254,30 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - Cache invalidation refers to when web cache proxies declare cached content as invalid, meaning it will no longer be served as the most recent piece of content when requested. 
 - The ultimate purpose, of course, is to ensure that the next time a client requests the affected content, the client receives the newest version at all times. 
 - There are primarily three kinds of systems for caching:
-  -  Write through cache:
+  - **Write through cache:**
+    - The writes go through the cache, and only if writes to DB and the cache both succeed, write verified as a success.
+    - Between cache and storage, we will have full data consistency.
+    - Nothing can get lost in case of a crash, power failure, or other system disturbances.
+    - In this case, however, writing latency would be higher since two different systems are written.
+    - // Seems like a choice for frequest reads - seldom writes
+  - **Write around cache:**
+    - The write directly goes to the DB, bypassing the cache.
+    - Cache misses are increased because, in a cache error, the cache device reads the information from the Database.
+    - Consequently, in applications that quickly write and re-read the data, this can lead to higher reading latency.
+    - Reading must take place through slower back-end storage and higher latency.
+  - **Write back cache:**
+    - The write is rendered directly to the cache layer, and as soon as the write to the cache is finished, the write is verified.
+    - The cache then synchronizes this writing to the DB asynchronously.
+    - For write-intensive applications, this will result in rapid write latency and high write throughput.
+    - However, if the caching layer dies, there is a chance of losing the data since the cache is the only single copy of the written data.
+    - By having more than one replica that recognizes the writing in the cache, we can maximize this.
+
+#### ```Advantages of Caching```
+- **Improve Application Performance**
+
+#### Links
+- https://www.enjoyalgorithms.com/blog/caching-system-design-concept/
+- https://www.youtube.com/watch?v=_F1U6Rh0wfo
 ---
 
 #### Links
