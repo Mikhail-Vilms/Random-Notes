@@ -219,7 +219,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - CDN store static files and help us to reduce latency.
   - DNS is used to get the IP address of a query. So, rather than requesting the IP address multiple times, it can be stored in a cache storage, allowing us not to re-perform a DNS query again, and the web pages can be accessed more quickly.
 
-#### Types of Caching
+#### ```Types of Caching```
 - **Application server cache**
   - We can cache the data directly in the Application Layer.
   - Every time a request is made to the service, it will return local, cached data quickly if it exists. 
