@@ -233,10 +233,15 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - **Content Distribution Network (CDN) (???)**
   - When our pages serve huge amounts of static media, this is the best option.
   - Suppose that the framework we are developing is not yet big enough to have a CDN of its own!
-  - “Using a lightweight HTTP server like apache, we can serve static media from a different subdomain such as “blog.enjoyalgorithms.com” and cut the DNS from your servers to a CDN layer.(???)
+  - “Using a lightweight HTTP server like apache, we can serve static media from a different subdomain such as “blog.foobar.com” and cut the DNS from your servers to a CDN layer.(???)
   - ![image](https://user-images.githubusercontent.com/57194114/202943964-659be543-0d1b-4e59-b18b-390340f9ebfe.png)
 - **Client-Side Caches**
+  - Client-side caching duplicates the data of previously requested files directly within browser applications or other clients (such as intermediate network caches). 
 - **ISP layer cache**
+  - ISP - Internet Service Provider 
+  - ISP caching works in much the same way as browser caching.
+  - Once you have visited a website, your ISP may cache those pages so that they appear to load faster the next time you visit them.
+  - The main problem with this is that, unlike your browser cache, you can not delete these temporary files; instead, you have to wait until your ISP's cache expires and requests fresh copies of the files. 
 ---
 
 #### Links
