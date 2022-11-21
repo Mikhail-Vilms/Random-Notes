@@ -281,10 +281,13 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Offloading the same request traffic from the main server to caching server would reduce the backend load.
 - **Increase Read Throughput (IOPS):**
   - Caching server responds much faster than the main server for the cached key, which increases read throughput. 
+- ![image](https://user-images.githubusercontent.com/57194114/202945974-33921a9d-6a1b-4dfa-8717-a4b0131f4002.png)
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/caching-system-design-concept/
 - https://www.youtube.com/watch?v=_F1U6Rh0wfo
+
+---
 ---
 
 #### Links
