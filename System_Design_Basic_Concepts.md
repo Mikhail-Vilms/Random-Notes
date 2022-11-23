@@ -293,12 +293,19 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 ---
 ## Load Balancing
 - A load balancer is a software or a hardware device that sits between clients and a set of servers and balances workload across resources. It saves our servers from overloading and increases the throughput of the system.
-- Problem behind load balancing:
+- **Problem behind load balancing**:
   - We use various web services in real life, which quickly respond to our requests. But most of us are unaware of the background process and scale of the system responsible for providing the fast response. This involves the allocation of requests across several servers when thousands of users request the service simultaneously.
   - On the other side, the load on servers keeps increasing with the traffic growth, and the website gets slower to serve the user request. To deliver a fast and reliable response, one idea would be to increase the number of servers. But this situation brings a new challenge: how to distribute the requests across several servers? We can solve this problem using the idea of a load balancer!
   - Suppose we have several clients sending requests to a single server. When the number of requests increases significantly, the server experiences an overload, leading to failure in the system.
   - ![image](https://user-images.githubusercontent.com/57194114/203491597-741b1297-53a6-4527-9104-2ea829532439.png)
-  - 
+  - There are two issues:
+    - **Server overloading:** There is always a limitation on a server to handle requests. After growth in the number of requests, the server may get overloaded. 
+    - **Single point of failure:** If the single server goes down, the whole application will be unavailable for the users for a certain period of time. It will create a bad user experience.
+- **Solution**:
+  - We can try to scale our system. The first way is to vertically scale our system or increase the power of our server. But, there's only so much that we can do about it to increase a single machine's power.
+  - Another way is to scale the system horizontally by adding more servers to our system. Now for handling the request, we can add a load balancer and distribute the request across multiple servers. This could allow our services to handle a large number of requests by adding more servers.
+  - ![image](https://user-images.githubusercontent.com/57194114/203492955-43b89640-2eb9-4959-9464-9941f8ad77f0.png)
+  - Even if one of the servers goes offline due to some reason, the service will be available. It continuously checks the health of backend resources and prevents sending traffic to servers that cannot fulfill requests.
 ---
 ---
 
