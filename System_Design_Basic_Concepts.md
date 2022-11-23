@@ -18,6 +18,8 @@
   - **[Types of Caching](#Types-of-Caching)**
   - **[Cache Eviction Policy](#Cache-Eviction-Policy)**
   - **[Cache Invalidation](#Cache-Invalidation)**
+- **[Load Balancing](#Load-Balancing)**
+
 ---
 ## Process Management in Operating System
 
@@ -287,6 +289,16 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - https://www.enjoyalgorithms.com/blog/caching-system-design-concept/
 - https://www.youtube.com/watch?v=_F1U6Rh0wfo
 
+---
+---
+## Load Balancing
+- A load balancer is a software or a hardware device that sits between clients and a set of servers and balances workload across resources. It saves our servers from overloading and increases the throughput of the system.
+- Problem behind load balancing:
+  - We use various web services in real life, which quickly respond to our requests. But most of us are unaware of the background process and scale of the system responsible for providing the fast response. This involves the allocation of requests across several servers when thousands of users request the service simultaneously.
+  - On the other side, the load on servers keeps increasing with the traffic growth, and the website gets slower to serve the user request. To deliver a fast and reliable response, one idea would be to increase the number of servers. But this situation brings a new challenge: how to distribute the requests across several servers? We can solve this problem using the idea of a load balancer!
+  - Suppose we have several clients sending requests to a single server. When the number of requests increases significantly, the server experiences an overload, leading to failure in the system.
+  - ![image](https://user-images.githubusercontent.com/57194114/203491597-741b1297-53a6-4527-9104-2ea829532439.png)
+  - 
 ---
 ---
 
