@@ -304,8 +304,9 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - **Solution**:
   - We can try to scale our system. The first way is to vertically scale our system or increase the power of our server. But, there's only so much that we can do about it to increase a single machine's power.
   - Another way is to scale the system horizontally by adding more servers to our system. Now for handling the request, we can add a load balancer and distribute the request across multiple servers. This could allow our services to handle a large number of requests by adding more servers.
-  - ![image](https://user-images.githubusercontent.com/57194114/203492955-43b89640-2eb9-4959-9464-9941f8ad77f0.png)
   - Even if one of the servers goes offline due to some reason, the service will be available. It continuously checks the health of backend resources and prevents sending traffic to servers that cannot fulfill requests.
+  - ![image](https://user-images.githubusercontent.com/57194114/203492955-43b89640-2eb9-4959-9464-9941f8ad77f0.png)
+
 ---
 ---
 
