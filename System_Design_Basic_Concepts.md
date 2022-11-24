@@ -27,7 +27,11 @@
 ## ```Throughput```
 - Throughput: the number of records we can process per second, or the total time it takes to run a job on a dataset of a certain size.
   - // In an ideal world, the running time of a batch job is the size of the dataset divided by the throughput. In practice, the running time is often longer, due to skew (data not being spread evenly across worker processes) and needing to wait for the slowest task to complete.
-
+- Throughput is defined as the total number of items processed per unit of time, or we can say Throughput is the rate at which something is produced.
+  - It is generally represented as the number of bits transmitted per second or the number of HTTP operations per day.
+  - The system’s Throughput is generally obtained by summing up all the items and dividing the sum by the sample interval.
+  - It is a standard way of obtaining the Throughput, but it suffers from ignoring the processing speed variations.
+  - Let’s take an example to get a clear understanding of how to obtain Throughput :)
 ---
 ---
 ## Process Management in Operating System
