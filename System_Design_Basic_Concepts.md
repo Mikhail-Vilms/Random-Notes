@@ -344,7 +344,34 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Citrix NetScaler
 
 #### Advantages of load balancing
+- We use a load balancer for better user experience and uninterrupted service by distributing the client requests to an available and responsive server. In other words, it ensures the availability and scalability of the application.
+- It prevents server overload and a single point of failure. In other words, it ensures that no single server bears too many requests that degrade the application's overall performance. 
+- It can also offer functionalities like encryption, authentication, etc. to provide a single control point for securing, managing, and monitoring the application. It can provide efficient protection from the DoS attack.
+- The end-user only needs to know the address of the load balancer, not the address of every server in the cluster. So it also provides a layer of Abstraction.
+- We can roll out software updates without taking the whole service down by using the load balancer to take out one server at a time.
+- It minimizes server response time and maximizes throughput.
+- It can do health checks and monitor the request handling capability of servers.
+- Based on the number of requests, it can add or remove the number of servers.
 
+#### Load Balancing Algorithms
+- Load balancing algorithms are categorized into two parts:
+  - **Static load balancing algorithms**: These algorithms works in the same way regardless of the state of the backend serving the requests. It is simpler and more efficient to implement but can lead to uneven distribution of requests. Some examples of static load balancing algorithms are:
+    - Round Robin
+    - Wheighted Round Robin
+    - Source IP Hash
+    - URL Hash
+    - Randomized algorithm
+  - **Dynamic load balancing algorithms**: These algorithms takes into account the state of the backend and considers server load when distributing requests. It requires communication between the load balancers and servers. So it would be a little complex but can distribute requests efficiently. Some examples of dynamic load balancing algorithms are:
+     - Least connection method
+     - Weighted least connections method
+     - Least response time method
+- Round Robin Load Balancing Algorithm:
+
+
+#### Links
+- https://www.enjoyalgorithms.com/blog/load-balancers-in-system-design/
+- https://www.enjoyalgorithms.com/blog/types-of-load-balancing-algorithms/
+- https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html
 ---
 ---
 
