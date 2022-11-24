@@ -291,7 +291,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 
 ---
 ---
-## Load Balancing
+## ```Load Balancing```
 - A load balancer is a software or a hardware device that sits between clients and a set of servers and balances workload across resources. It saves our servers from overloading and increases the throughput of the system.
 - **Problem behind load balancing**:
   - We use various web services in real life, which quickly respond to our requests. But most of us are unaware of the background process and scale of the system responsible for providing the fast response. This involves the allocation of requests across several servers when thousands of users request the service simultaneously.
@@ -312,7 +312,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Between the application and cache servers
   - Between the cache and database servers
 
-#### Types of Load Balancers
+#### ```Types of Load Balancers```
 - // This distinction is not clear at all(???!!!)
 - There can be two types of load balancers(???): software load balancer and hardware load balancers: software load balancer and hardware load balancer.
 - The main difference between them is that we can do more with a software load balancer(???). We have more power for customization and scaling with software load balancers. With hardware load balancers, we are limited to the hardware we are given.
@@ -343,7 +343,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Coytepoint load balancer
   - Citrix NetScaler
 
-#### Advantages of load balancing
+#### ```Advantages of load balancing```
 - We use a load balancer for better user experience and uninterrupted service by distributing the client requests to an available and responsive server. In other words, it ensures the availability and scalability of the application.
 - It prevents server overload and a single point of failure. In other words, it ensures that no single server bears too many requests that degrade the application's overall performance. 
 - It can also offer functionalities like encryption, authentication, etc. to provide a single control point for securing, managing, and monitoring the application. It can provide efficient protection from the DoS attack.
@@ -353,7 +353,7 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - It can do health checks and monitor the request handling capability of servers.
 - Based on the number of requests, it can add or remove the number of servers.
 
-#### Load Balancing Algorithms
+#### ```Load Balancing Algorithms```
 - Load balancing algorithms are categorized into two parts:
   - **Static load balancing algorithms**: These algorithms works in the same way regardless of the state of the backend serving the requests. It is simpler and more efficient to implement but can lead to uneven distribution of requests. Some examples of static load balancing algorithms are:
     - Round Robin
