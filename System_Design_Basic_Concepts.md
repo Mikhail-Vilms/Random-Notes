@@ -385,8 +385,12 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - **Weighted Least Connections Method:** In weighted least connections, the load distribution is based on both the factors – the number of current and active connections to each server and the relative capacity of the server.
   - Some servers can handle more connections than others.
   - Servers are rated based on their processing capabilities.
-- **Least Response Time Method: **
-  - This algorithm is a little advanced form of the least connection method, where a request is forwarded to the server with the fewest active connections and the least average response time. 
+- **Least Response Time Method:** This algorithm is a little advanced form of the least connection method, where a request is forwarded to the server with the fewest active connections and the least average response time.
+  - It relies on the time taken by a server to respond to a health monitoring request.
+  - The speed of the response is an indicator of how loaded the server is.
+  - Also, consider the number of active connections on each server.
+  - The backend server that responds the fastest receives the subsequent request.
+
 #### Links
 - https://www.enjoyalgorithms.com/blog/load-balancers-in-system-design/
 - https://www.enjoyalgorithms.com/blog/types-of-load-balancing-algorithms/
