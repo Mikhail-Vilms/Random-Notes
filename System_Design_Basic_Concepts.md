@@ -365,8 +365,12 @@ Latency restricts the performance of the system; hence it is necessary to optimi
      - Least connection method
      - Weighted least connections method
      - Least response time method
-- Round Robin Load Balancing Algorithm:
-
+- Round Robin Load Balancing Algorithm: Round robin is one of the simplest load balancing algorithms, ensuring client requests to a different server based on a rotating list. Here load balancer maintains a list of available servers and directs the incoming request in a round-robin fashion: 1st request to the 1st server, 2nd request to the 2nd server, so on. When the load balancer reaches the end of the list, it goes to the list's beginning and starts from the first server again.
+  - Easy to implement.
+  - Evenly balances the traffic between the servers.
+  - Doesn't consider the server's load and specifications. So there is a risk that a server with low capacity receives many requests and becomes overloaded.
+  - Works best if every server in the load balancer list has roughly the exact specification. Otherwise, a low processing server may have the same load as a high processing server.
+- Weighted Round Robin Balancing Algorithm
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/load-balancers-in-system-design/
