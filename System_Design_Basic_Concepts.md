@@ -1,13 +1,14 @@
 # System Design: Basic Concepts
 
 ### List of Basic Concepts
+- **[Latency](#Latency)**
+- **[Throughput](#Throughput)**
 - **[Process Management in Operating System](#Process-Management-in-Operating-System)**
   - **[Process Memory](#Process-Memory)**
   - **[Process Control Block](#Process-Control-Block)**
   - **[States of a Process in Operating System](#States-of-a-Process-in-Operating-System)**
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
-- **[Latency](#Latency)**
 - **[Horizontal VS Vertical Scaling](#Horizontal-VS-Vertical-Scaling)**
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
@@ -20,6 +21,14 @@
   - **[Cache Invalidation](#Cache-Invalidation)**
 - **[Load Balancing](#Load-Balancing)**
   - **[Load Balancing Algorithms](#Load-Balancing-Algorithms)**
+---
+---
+
+## ```Throughput```
+- Throughput: the number of records we can process per second, or the total time it takes to run a job on a dataset of a certain size.
+  - // In an ideal world, the running time of a batch job is the size of the dataset divided by the throughput. In practice, the running time is often longer, due to skew (data not being spread evenly across worker processes) and needing to wait for the slowest task to complete.
+
+---
 ---
 ## Process Management in Operating System
 
