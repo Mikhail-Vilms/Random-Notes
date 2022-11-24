@@ -375,7 +375,10 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - The current load of each server and the relative computation cost of each request are not considered.
   - Based on the weighted score, some of the servers may get many requests of the overall request count.
 - **Random Load Balancing Algorithm:** This algorithm randomly maps requests to the server using some random number generator. Whenever a load balancer receives requests, a randomized algorithm distributes the requests evenly to the servers. So like Round Robin, this algorithm also works well for the group of servers with similar configurations.
-- 
+- **Source IP Hash Load Balancing Algorithm (???):*** Here server is selected based on a unique hash key. It combines the source and destination IP address to generate a unique hash key and allocate the request to a particular server. The key can be regenerated if the session is broken and the client request is directed to the same server it was using previously. In other words, this is useful when a dropped connection needs to be returned to the same server initially handling it.
+- **URL Hash Load Balancing Algorithm (???):** Load balancer generates the hash value based on the URL present in requests coming from the clients. Based on hash value, requests will be forwarded to servers. The load balancer caches the hashed value of the URL, and subsequent requests that use the same URL make a cache hit and are forwarded to the same server.
+  - It improves the capacity of backend caches by avoiding cache duplication.
+  - This method is used when load-balanced servers serve mostly unique content per server. So, basically, what this means is that all requests related to one process will go to one server, say “running code,” and all requests related to another process, say “payments,” will go to another server, and so on…
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/load-balancers-in-system-design/
