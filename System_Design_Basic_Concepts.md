@@ -306,7 +306,14 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Another way is to scale the system horizontally by adding more servers to our system. Now for handling the request, we can add a load balancer and distribute the request across multiple servers. This could allow our services to handle a large number of requests by adding more servers.
   - Even if one of the servers goes offline due to some reason, the service will be available. It continuously checks the health of backend resources and prevents sending traffic to servers that cannot fulfill requests.
   - ![image](https://user-images.githubusercontent.com/57194114/203492955-43b89640-2eb9-4959-9464-9941f8ad77f0.png)
+- We can add load balancers at various places in the system, especially with multiple resources like servers, databases, or caches.
+  - Between the client and the server
+  - Between the server and application servers
+  - Between the application and cache servers
+  - Between the cache and database servers
 
+#### Types of Load Balancers
+- There can be two types of load balancers: software load balancer and hardware load balancer
 ---
 ---
 
