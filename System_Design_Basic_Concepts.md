@@ -379,7 +379,14 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - **URL Hash Load Balancing Algorithm (???):** Load balancer generates the hash value based on the URL present in requests coming from the clients. Based on hash value, requests will be forwarded to servers. The load balancer caches the hashed value of the URL, and subsequent requests that use the same URL make a cache hit and are forwarded to the same server.
   - It improves the capacity of backend caches by avoiding cache duplication.
   - This method is used when load-balanced servers serve mostly unique content per server. So, basically, what this means is that all requests related to one process will go to one server, say “running code,” and all requests related to another process, say “payments,” will go to another server, and so on…
-
+- **Least Connection Method:** This algorithm considers the current load on a server and delivers better performance. Here load balancer sends requests to the server with the least number of active connections.
+  - The load balancer does additional calculations to figure out the server with the least number of connections.
+  - This algorithm is useful when there are many persistent connections in the traffic unevenly distributed between the servers. If the servers are busy in long computations, the connections between client and server stay alive for a long period of time.
+- **Weighted Least Connections Method:** In weighted least connections, the load distribution is based on both the factors – the number of current and active connections to each server and the relative capacity of the server.
+  - Some servers can handle more connections than others.
+  - Servers are rated based on their processing capabilities.
+- **Least Response Time Method: **
+  - This algorithm is a little advanced form of the least connection method, where a request is forwarded to the server with the fewest active connections and the least average response time. 
 #### Links
 - https://www.enjoyalgorithms.com/blog/load-balancers-in-system-design/
 - https://www.enjoyalgorithms.com/blog/types-of-load-balancing-algorithms/
