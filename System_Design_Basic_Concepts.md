@@ -19,7 +19,7 @@
   - **[Cache Eviction Policy](#Cache-Eviction-Policy)**
   - **[Cache Invalidation](#Cache-Invalidation)**
 - **[Load Balancing](#Load-Balancing)**
-
+  - **[Load Balancing Algorithms](#Load-Balancing-Algorithms)**
 ---
 ## Process Management in Operating System
 
