@@ -313,7 +313,38 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Between the cache and database servers
 
 #### Types of Load Balancers
-- There can be two types of load balancers: software load balancer and hardware load balancer
+- // This distinction is not clear at all(???!!!)
+- There can be two types of load balancers(???): software load balancer and hardware load balancers: software load balancer and hardware load balancer.
+- The main difference between them is that we can do more with a software load balancer(???). We have more power for customization and scaling with software load balancers. With hardware load balancers, we are limited to the hardware we are given.
+- Pros and cons of software load balancers:
+  - Flexible in adjusting to changing needs
+  - Able to scale beyond initial capacity by adding more software instances
+  - Lower cost than purchasing and maintaining physical hardware. The software can run on any standard device, which tends to be cheaper
+  - It can allow cloud-based load balancing (???)
+  - There can be some delay (???) when scaling beyond initial capacity while configuring load balancer software
+  - There will be some extra costs for ongoing upgrades
+- Examples of software load balancers(???):
+  - HAProxy: A TCP load balancer
+  - NGINX: An HTTP load balancer with SSL termination support.
+  - mod_athena: Apache-based HTTP load balancer.
+  - Varnish: A reverse proxy-based load balancer. 
+  - Balance: Open-source TCP load balancer.
+  - LVS: Linux virtual server offering layer 4 load balancing.
+- Pros and cons of hardware load balancers:
+  - Provide fast throughput due to software running on specialized processors.
+  - Increase security because only the organization can access the servers physically.
+  - Need more human resources and expertise to configure and manage the machines.
+  - It fails to scale when the number of requests exceeds a specific limit.
+  - It requires a higher cost for purchase and maintenance.
+- Examples of hardware load balancers (??? don't know any of them):
+  - F5 BIG-IP load balancer
+  - CISCO system catalyst
+  - Barracuda load balancer
+  - Coytepoint load balancer
+  - Citrix NetScaler
+
+#### Advantages of load balancing
+
 ---
 ---
 
