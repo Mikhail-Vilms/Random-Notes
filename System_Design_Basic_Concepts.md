@@ -258,7 +258,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - We need to address the issue mentioned above and establish a protocol to transmit large files with correct ordering.
   - This is where **Transmission Control Protocol (TCP)** comes into play.
 - **TCP** is a transport layer protocol built on top of the IP to solve the issues that we can face, as already mentioned.
-- The main idea behind the TCP is that when a machine wants to communicate with another machine over TCP, it will create a TCP connection with the destination server when a browser wants to communicate with a website’s server.
+- The main idea behind the TCP is that when a machine wants to communicate with another machine over TCP, it will create a TCP connection with the destination server when a browser wants to communicate with a website’s server
   - The way this connection is established is what is called a **handshake**.
   - A handshake is a special TCP interaction where one machine contacts the other by sending a packet or few packets. 
   - A request message that says it wants to establish a connection to the other machine to which the other machine responds by sending a message if it accepts the connection request. 
