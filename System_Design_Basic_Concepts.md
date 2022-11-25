@@ -14,7 +14,6 @@
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
-- **[HTTP Long Polling](#HTTP-Long-Polling)**
 - **[Domain Name Service](#domain-name-service)**
 - **[Caching](#Caching)**
   - **[Types of Caching](#Types-of-Caching)**
@@ -197,10 +196,19 @@
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/client-server-architecture
+
+---
+---
+## ```Network Protocols```
+- A network can be defined as a group of computers and other devices connected in some ways to exchange data. It is a group of computers that use standard communication protocols over digital interconnections to share resources.
+- A **network protocol** is a defined set of rules that specify how data is transmitted on the same network between different devices. In general, it allows connected devices to interact with each other, irrespective of any variations in their internal processes, structure, or configuration.
+
+#### Links
+- https://www.enjoyalgorithms.com/blog/network-protocols-concept/
+---
 ---
 
-
-## Latency
+## ```Latency```
 
 ### What is latency?
 - The browser (client) sends a signal to the server whenever a request is made. 
