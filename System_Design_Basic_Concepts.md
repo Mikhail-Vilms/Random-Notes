@@ -203,6 +203,7 @@
 
 ---
 ---
+
 ## ```Network Protocols```
 - A network can be defined as a group of computers and other devices connected in some ways to exchange data. It is a group of computers that use standard communication protocols over digital interconnections to share resources.
 - A **network protocol** is a defined set of rules that specify how data is transmitted on the same network between different devices. In general, it allows connected devices to interact with each other, irrespective of any variations in their internal processes, structure, or configuration.
@@ -212,7 +213,9 @@
   - Internet Protocol allows for network-to-network communications. IP is, thus, considered a protocol of the network layer (layer 3).
   - The Transmission Control Protocol (TCP) ensures, as another example, that the transport of data packets through networks goes smoothly. Thus, TCP is considered to be a transport layer (layer 4)
 - **A packet is a tiny segment of a large message.** The data transmitted over networks of machines, such as the Internet, is split into packets. The computer or system that collects them then recombines these packets.
-- ![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png)
+- ![image](https://user-images.githubusercontent.com/57194114/204032537-2e6f9cbb-09e6-4629-b777-0f2484a14473.png)
+
+
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png) |  ![](https://...Ocean.png)
