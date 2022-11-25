@@ -235,8 +235,12 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
     - It also contains other information such as the packet's total size and the version of the IP that the IP packet is operating by (IPv4, IPv6, …).
 
 #### ```IPv4 VS IPv6```
-
-
+- IPv4 was the first version of IP. It was deployed for production in the ARPANET in 1983. Today it is the most widely used IP version. It is used to identify devices on a network using an addressing system.
+- The IPv4 uses a 32-bit address scheme to store 2³² addresses which is more than 4 billion addresses. To date, it is considered the primary Internet Protocol and carries 94% of Internet traffic.
+- IPv6 is the most recent version of the Internet Protocol. Internet Engineer Taskforce initiated it in early 1994. The design and development of that suite are now called IPv6.
+- This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces.
+- This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces. IPv6 is also called IPng (Internet Protocol next generation).
+- https://www.youtube.com/watch?v=ThdO9beHhpA&ab_channel=PowerCertAnimatedVideos
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
 
