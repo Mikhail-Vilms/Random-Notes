@@ -204,8 +204,12 @@
 - A **network protocol** is a defined set of rules that specify how data is transmitted on the same network between different devices. In general, it allows connected devices to interact with each other, irrespective of any variations in their internal processes, structure, or configuration.
 #### ```OSI Model```
 - **Open Systems Interconnection (OSI)** model describes seven layers that computer systems use to communicate over a network. Each layer represents a different category of networking functions.
+- These networking functions are made possible by protocols. For example, by indicating where data packets originate and their destination, the Internet Protocol (IP) is responsible for routing data.
+  - Internet Protocol allows for network-to-network communications. IP is, thus, considered a protocol of the network layer (layer 3).
+  - The Transmission Control Protocol (TCP) ensures, as another example, that the transport of data packets through networks goes smoothly. Thus, TCP is considered to be a transport layer (layer 4)
+- **A packet is a tiny segment of a large message.** The data transmitted over networks of machines, such as the Internet, is split into packets. The computer or system that collects them then recombines these packets.
 - ![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png)
-
+- 
 
 
 #### Links
