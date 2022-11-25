@@ -218,9 +218,17 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/57194114/204032537-2e6f9cbb-09e6-4629-b777-0f2484a14473.png) | ![image](https://user-images.githubusercontent.com/57194114/204032641-f95d2319-81b3-4819-86a9-4451269caf16.png)
 
+#### ```Internet Protocol```
+- The **Internet Protocol (IP)**  is a network layer protocol or collection of rules that allow data packets to be routed and addressed to pass through networks and reach the correct destination.
+  - Modern Internet effectively runs on IP, or it follows the IP protocols. 
+- When a machine or a client tries to interact with another machine or a server and sends data to other machines, it is sent in as an IP packet. 
+- IP packets are a fundamental unit of data sent from one machine to another, or we can say IP packets are the building blocks of communication between machines. 
+  - It is usually made of up bytes. 
+  - IP packets have two main sections, IP header, and data.
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
+
 ---
 ---
 
