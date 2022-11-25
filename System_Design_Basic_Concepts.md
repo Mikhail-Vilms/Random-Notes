@@ -227,6 +227,15 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - IP packets are a fundamental unit of data sent from one machine to another, or we can say IP packets are the building blocks of communication between machines. 
   - It is usually made of up bytes. 
   - IP packets have two main sections, IP header, and data.
+- **IP address:** An IP address is a unique identifier assigned to a device or domain that connects to the Internet.
+- ![image](https://user-images.githubusercontent.com/57194114/204037100-1631756d-d74b-4dd9-9736-4eef8bdc7a1d.png)
+  - The image above shows a simple IP Packet. The IP Header contains essential information about the packet. Some of the information is:
+    - It contains the source IP address of the packet.
+    - It contains the destination IP address of the packet.
+    - It also contains other information such as the packet's total size and the version of the IP that the IP packet is operating by (IPv4, IPv6, …).
+
+#### ```IPv4 VS IPv6```
+
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
