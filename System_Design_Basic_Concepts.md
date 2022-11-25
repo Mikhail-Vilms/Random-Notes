@@ -13,7 +13,7 @@
 - **[Network Protocols](#Network-Protocols)**
   - **[OSI Model](#OSI-Model)**
   - **[Internet Protocol](#Internet-Protocol)**
-  - **[IPv4 VS IPv6](#IPv4-VS -Pv6)**
+  - **[IPv4 VS IPv6](#IPv4-VS-Pv6)**
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
