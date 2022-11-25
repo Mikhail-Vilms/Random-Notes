@@ -3,6 +3,7 @@
 ### List of Basic Concepts
 - **[Latency](#Latency)**
 - **[Throughput](#Throughput)**
+- **[Availability](#Availability)**
 - **[Process Management in Operating System](#Process-Management-in-Operating-System)**
   - **[Process Memory](#Process-Memory)**
   - **[Process Control Block](#Process-Control-Block)**
@@ -21,6 +22,7 @@
   - **[Cache Invalidation](#Cache-Invalidation)**
 - **[Load Balancing](#Load-Balancing)**
   - **[Load Balancing Algorithms](#Load-Balancing-Algorithms)**
+
 ---
 ---
 
@@ -50,6 +52,18 @@
   - Accessibility to the service also affects the Throughput of the system. When multiple users share a single communication system simultaneously, it may involve sharing the resources and affecting the system’s Throughput.
   - Moreover, accessibility to many customers also increases the traffic in the network, which is also an important factor in decreasing the Throughput. 
 
+#### Links
+- https://www.enjoyalgorithms.com/blog/throughput-in-system-design/
+
+---
+---
+
+## ```Availability```
+- Availability is the percentage of time in a given period that a system is available to perform its task and function under normal conditions.
+- One way to look at is how resistant a system is to failures.
+- A system’s availability is measured as the percentage of a system’s uptime in a given time period or by dividing the total uptime by the total uptime and downtime in a given period of time.
+- High Availability comes with its own tradeoffs, such as higher latency or lower throughput, and achieving high availability is very difficult. To make highly available systems, we need to make sure that the system does not have any 
+- 
 #### Links
 - https://www.enjoyalgorithms.com/blog/throughput-in-system-design/
 
