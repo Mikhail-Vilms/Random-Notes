@@ -221,7 +221,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/57194114/204032537-2e6f9cbb-09e6-4629-b777-0f2484a14473.png) | ![image](https://user-images.githubusercontent.com/57194114/204032641-f95d2319-81b3-4819-86a9-4451269caf16.png)
 
-- ```OSI Model Explained | Real World Example```: https://www.youtube.com/watch?v=LANW3m7UgWs
+- ```*OSI Model Explained | Real World Example*```: https://www.youtube.com/watch?v=LANW3m7UgWs
 
 #### ```Internet Protocol```
 - The **Internet Protocol (IP)**  is a network layer protocol or collection of rules that allow data packets to be routed and addressed to pass through networks and reach the correct destination.
@@ -236,7 +236,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
     - It contains the source IP address of the packet.
     - It contains the destination IP address of the packet.
     - It also contains other information such as the packet's total size and the version of the IP that the IP packet is operating by (IPv4, IPv6, …).
-- https://www.youtube.com/watch?v=OTwp3xtd4dg
+- ```*TCP/IP Model Explained*```: https://www.youtube.com/watch?v=OTwp3xtd4dg
 
 #### ```IPv4 VS IPv6```
 - IPv4 was the first version of IP. It was deployed for production in the ARPANET in 1983. Today it is the most widely used IP version. It is used to identify devices on a network using an addressing system.
@@ -244,7 +244,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - IPv6 is the most recent version of the Internet Protocol. Internet Engineer Taskforce initiated it in early 1994. The design and development of that suite are now called IPv6.
 - This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces.
 - This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces. IPv6 is also called IPng (Internet Protocol next generation).
-- https://www.youtube.com/watch?v=ThdO9beHhpA
+- ```*IP Address - IPv4 vs IPv6*```: https://www.youtube.com/watch?v=ThdO9beHhpA
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
