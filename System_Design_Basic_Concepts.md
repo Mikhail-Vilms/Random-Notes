@@ -80,7 +80,10 @@
   - If the main system fails, with no loss in uptime, another system can take charge. 
   - It would be best if you had advanced hardware to achieve fault-tolerant computing.
   - It must be able to detect component faults immediately and allow the various systems to operate in conjunction.(???)
-  - 
+  - This form of machine preserves the programs’ memory and records, a major advantage. However, it may take longer for networks and devices that are more complicated to respond to malfunctions. In comparison, technical issues that cause crashing systems may also cause a similar breakdown of redundant systems running parallel, creating a system-wide failure.(???)
+  - A high-value strategy instead uses a software-based approach to minimize server downtime rather than a hardware-based approach. A high-display cluster(???) finds a collection of servers together instead of using physical hardware to achieve maximum redundancy.(???)
+  - A high-value strategy instead uses a software-based approach to minimize server downtime rather than a hardware-based approach. A high-display cluster finds a collection of servers together instead of using physical hardware to achieve maximum redundancy.
+
 #### Links
 - https://www.enjoyalgorithms.com/blog/throughput-in-system-design/
 - https://www.youtube.com/watch?v=-BOysyYErLY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=20&ab_channel=GauravSen
