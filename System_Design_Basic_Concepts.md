@@ -74,10 +74,16 @@
   - A device also needs mechanisms for detecting failures.
   - It is also important to be able to perform high-availability testing and to be able to take corrective action any time one of the stack’s components becomes unavailable. 
   - Top-to-bottom or distributed high-availability approaches may include both work and hardware, or software-based downtime reduction techniques are also successful.   - Redundancy is a hardware-based approach. The implementation of high availability techniques, on the other hand, almost always requires software.
-
+- **Difference Between High Availability and Fault Tolerance**
+  - Fault-tolerant computing requires full hardware redundancy.\
+  - To achieve fault tolerance, several systems run in parallel, mirroring programs identically and executing instructions together.
+  - If the main system fails, with no loss in uptime, another system can take charge. 
+  - It would be best if you had advanced hardware to achieve fault-tolerant computing.
+  - It must be able to detect component faults immediately and allow the various systems to operate in conjunction.(???)
+  - 
 #### Links
 - https://www.enjoyalgorithms.com/blog/throughput-in-system-design/
-
+- https://www.youtube.com/watch?v=-BOysyYErLY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=20&ab_channel=GauravSen
 ---
 ---
 
