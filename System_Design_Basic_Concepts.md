@@ -214,11 +214,12 @@
   - The Transmission Control Protocol (TCP) ensures, as another example, that the transport of data packets through networks goes smoothly. Thus, TCP is considered to be a transport layer (layer 4)
 - **A packet is a tiny segment of a large message.** The data transmitted over networks of machines, such as the Internet, is split into packets. The computer or system that collects them then recombines these packets.
 - ![image](https://user-images.githubusercontent.com/57194114/204032537-2e6f9cbb-09e6-4629-b777-0f2484a14473.png)
+- ![image](https://user-images.githubusercontent.com/57194114/204032641-f95d2319-81b3-4819-86a9-4451269caf16.png)
 
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png) |  ![](https://...Ocean.png)
+![image](https://user-images.githubusercontent.com/57194114/204032537-2e6f9cbb-09e6-4629-b777-0f2484a14473.png) | ![image](https://user-images.githubusercontent.com/57194114/204032641-f95d2319-81b3-4819-86a9-4451269caf16.png)
 
 
 #### Links
