@@ -268,7 +268,17 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
   - ![image](https://user-images.githubusercontent.com/57194114/204059747-b39410d8-cd75-481f-8d47-754e43e6236c.png)
  
 - *```TCP: Transmission control protocol```:* https://www.youtube.com/watch?v=4IMc3CaMhyY
+- *```TCP vs UDP Comparison```:* https://www.youtube.com/watch?v=cA9ZJdqzOoU
 
+#### ```HTTP```
+- **Hypertext transfer protocol:** is built on top of TCP and provides a higher-level abstraction above TCP and IP.
+  - Its main characteristic is the request-response sequence.
+  - A request is sent by one machine, and a response needs to be returned by the other machine.
+  - For communication, most modern systems rely on the HTTP protocol.
+- While using HTTP, we don’t need to know about TCP and IP packets.
+  - It takes care of the developers of this complicated stuff connected to low-level machines.
+  - Some fundamental HTTP methods include Put, Get, Post, Delete.
+  - HTTP gives us the ability, rather than just data transfer, to incorporate business logic.
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
