@@ -260,8 +260,14 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - **TCP** is a transport layer protocol built on top of the IP to solve the issues that we can face, as already mentioned.
 - The main idea behind the TCP is that when a machine wants to communicate with another machine over TCP, it will create a TCP connection with the destination server when a browser wants to communicate with a website’s server.
   - The way this connection is established is what is called a **handshake**.
-- 
-
+  - A handshake is a special TCP interaction where one machine contacts the other by sending a packet or few packets. 
+  - A request message that says it wants to establish a connection to the other machine to which the other machine responds by sending a message if it accepts the connection request. 
+  - Then the client responds again by sending a message saying that the connection has been established (or cannot establish).
+  - Now that the connection is established, they can freely communicate with each other.
+- **Transmission Control Protocol (TCP) is a more powerful and more functional wrapper around the Internet Protocol (IP)**. It still lacks a robust framework that developers can use to define meaningful and easy-to-use communication channels for clients and servers in a system.
+  - ![image](https://user-images.githubusercontent.com/57194114/204059747-b39410d8-cd75-481f-8d47-754e43e6236c.png)
+ 
+- *```TCP: Transmission control protocol```:* https://www.youtube.com/watch?v=4IMc3CaMhyY
 
 
 #### Links
