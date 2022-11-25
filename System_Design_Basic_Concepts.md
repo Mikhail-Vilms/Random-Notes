@@ -11,6 +11,8 @@
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
 - **[Network Protocols](#Network-Protocols)**
+  - **[OSI Model](#OSI-Model)**
+  - **[Internet Protocol](#Internet-Protocol)** 
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
