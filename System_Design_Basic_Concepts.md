@@ -17,6 +17,7 @@
   - **[Transmission Control Protocols](#Transmission-Control-Protocols)**
   - **[HTTP](#HTTP)**
   - **[World Wide Web Consortium](#World-Wide-Web-Consortium)**
+  - **[Remote Procedure Call]**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
 - **[Domain Name Service](#domain-name-service)**
@@ -284,6 +285,15 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - World Wide Web Consortium, or W3C, is a vendor-neutral organization created in 1994 that develops common, interoperable protocols for the World Wide Web (WWW)
   - Web for All: The social value of the Web is that it enables human communication, commerce, and opportunities to share knowledge. One of W3C’s primary goals is to make these benefits available to all people, whatever their hardware, software, network infrastructure, native language, culture, geographical location, or physical or mental ability.
   - Web on Everything: The number of different kinds of devices that can access the Web has grown immensely. Mobile phones, smartphones, personal digital assistants, interactive television systems, voice response systems, kiosks, and even certain domestic appliances can all access the Web.
+- RFC (stands for Request For Comments) is a document that describes the standards, protocols, and technologies of the Internet and TCP/IP.
+  - It is the result of committee drafting and subsequent review by interested parties.
+  - Some RFCs are informational in nature.
+  - Of those intended to become Internet standards, the final version of the RFC becomes the standard, and no further comments or changes are permitted.
+
+#### ```Remote Procedure Call```
+- **Remote Procedure Call (RPC)(???)** is a protocol that can be used by one program to request a service from a program on a network located on another device without having to understand the details of the network.
+  - It is an interprocess communication technique that is used for client-server-based applications.
+  - It is also known as a subroutine call or a function call.
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
