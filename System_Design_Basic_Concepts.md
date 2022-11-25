@@ -223,7 +223,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 :-------------------------:|:-------------------------:
 ![image](https://user-images.githubusercontent.com/57194114/204032537-2e6f9cbb-09e6-4629-b777-0f2484a14473.png) | ![image](https://user-images.githubusercontent.com/57194114/204032641-f95d2319-81b3-4819-86a9-4451269caf16.png)
 
-- ```*OSI Model Explained | Real World Example*```: https://www.youtube.com/watch?v=LANW3m7UgWs
+- *```OSI Model Explained | Real World Example```:* https://www.youtube.com/watch?v=LANW3m7UgWs
 
 #### ```Internet Protocol```
 - The **Internet Protocol (IP)**  is a network layer protocol or collection of rules that allow data packets to be routed and addressed to pass through networks and reach the correct destination.
