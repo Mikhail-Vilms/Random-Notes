@@ -245,6 +245,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces.
 - This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces. IPv6 is also called IPng (Internet Protocol next generation).
 - ```*IP Address - IPv4 vs IPv6*```: https://www.youtube.com/watch?v=ThdO9beHhpA
+- ```IPv6 Addresses Explained```: https://www.youtube.com/watch?v=irhS0ASkvy8
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
