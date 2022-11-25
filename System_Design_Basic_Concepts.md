@@ -16,6 +16,8 @@
   - **[IPv4 VS IPv6](#ipv4-vs-ipv6)**
   - **[Transmission Control Protocols](#Transmission-Control-Protocols)**
   - **[HTTP](#HTTP)**
+  - **[World Wide Web Consortium](#World-Wide-Web-Consortium)**
+
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
@@ -208,7 +210,6 @@
 
 ---
 ---
-
 ## ```Network Protocols```
 - A network can be defined as a group of computers and other devices connected in some ways to exchange data. It is a group of computers that use standard communication protocols over digital interconnections to share resources.
 - A **network protocol** is a defined set of rules that specify how data is transmitted on the same network between different devices. In general, it allows connected devices to interact with each other, irrespective of any variations in their internal processes, structure, or configuration.
@@ -280,6 +281,11 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
   - It takes care of the developers of this complicated stuff connected to low-level machines.
   - Some fundamental HTTP methods include Put, Get, Post, Delete.
   - HTTP gives us the ability, rather than just data transfer, to incorporate business logic.
+
+#### ```World Wide Web Consortium```
+- World Wide Web Consortium, or W3C, is a vendor-neutral organization created in 1994 that develops common, interoperable protocols for the World Wide Web (WWW)
+  - Web for All: The social value of the Web is that it enables human communication, commerce, and opportunities to share knowledge. One of W3C’s primary goals is to make these benefits available to all people, whatever their hardware, software, network infrastructure, native language, culture, geographical location, or physical or mental ability.
+  - Web on Everything: The number of different kinds of devices that can access the Web has grown immensely. Mobile phones, smartphones, personal digital assistants, interactive television systems, voice response systems, kiosks, and even certain domestic appliances can all access the Web.
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
