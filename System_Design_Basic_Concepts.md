@@ -249,6 +249,21 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - *```IP Address - IPv4 vs IPv6```:* https://www.youtube.com/watch?v=ThdO9beHhpA
 - *```IPv6 Addresses Explained```:* https://www.youtube.com/watch?v=irhS0ASkvy8
 
+#### Transmission Control Protocols
+- One IP Packet's size is significantly less, which is not enough to send large files such as images, emails, and other heavy information. 
+  - So, it will not fit in one IP packet. 
+  - So, we have to use multiple packets to send such data. 
+  - In this case, there is a chance that all the packets may not reach the destination and get lost in the route. 
+  - There may also be a problem in the ordering of packets.
+- We need to address the issue mentioned above and establish a protocol to transmit large files with correct ordering.
+  - This is where **Transmission Control Protocol (TCP)** comes into play.
+- **TCP** is a transport layer protocol built on top of the IP to solve the issues that we can face, as already mentioned.
+- The main idea behind the TCP is that when a machine wants to communicate with another machine over TCP, it will create a TCP connection with the destination server when a browser wants to communicate with a website’s server.
+  - The way this connection is established is what is called a **handshake**.
+- 
+
+
+
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
 
@@ -297,6 +312,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
   - The report generally includes details such as percentage Loss, Average Latency, etc.
 
 ### Latency optimization
+
 Latency restricts the performance of the system; hence it is necessary to optimize it. We can reduce it by adopting the following measures:
 - **HTTP/2:** 
   - We can reduce it by the use of HTTP/2.
@@ -318,9 +334,9 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Use design patterns that avoid locking as multithreaded locks introduce latency.
   - Use an asynchronous programming model to utilize better hardware resources as blocking operations cause long wait times.
   - Limiting the unbounded queue depths and providing back pressure typically lead to less wait time in the code resulting in more predictable latencies.
----
 
-#### Horizontal VS Vertical Scaling
+---
+---
 
 #### Distributed System
 - A distributed system is a collection of computers that work together to form a single computer for end users. 
@@ -328,13 +344,9 @@ Latency restricts the performance of the system; hence it is necessary to optimi
 - With distributed systems, users must be able to communicate with any of the distributed machines without knowing it’s only one machine.
 - The distributed system network stores its data on more than just a single node, using multiple physical or virtual machines at the same time.
 
-#### CAP Theorem
-
-
-
-### Domain Name Service
-
 ---
+---
+
 ## ```Caching```
 - Caching is the process of storing the results of a request in a cache or a temporary storage location so they can be accessed more quickly.
 - So critical question is: What is cache? In system design, cache is a high-speed data storage that stores a subset of data so that future requests for that data are served up faster.
