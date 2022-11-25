@@ -12,7 +12,8 @@
 - **[Peer-to-Peer Networks]** - TODO
 - **[Network Protocols](#Network-Protocols)**
   - **[OSI Model](#OSI-Model)**
-  - **[Internet Protocol](#Internet-Protocol)** 
+  - **[Internet Protocol](#Internet-Protocol)**
+  - **[IPv4 VS IPv6](#IPv4-VS -Pv6)**
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
@@ -236,7 +237,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
     - It contains the source IP address of the packet.
     - It contains the destination IP address of the packet.
     - It also contains other information such as the packet's total size and the version of the IP that the IP packet is operating by (IPv4, IPv6, …).
-- ```*TCP/IP Model Explained*```: https://www.youtube.com/watch?v=OTwp3xtd4dg
+- *```TCP/IP Model Explained```:* https://www.youtube.com/watch?v=OTwp3xtd4dg
 
 #### ```IPv4 VS IPv6```
 - IPv4 was the first version of IP. It was deployed for production in the ARPANET in 1983. Today it is the most widely used IP version. It is used to identify devices on a network using an addressing system.
@@ -244,8 +245,8 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - IPv6 is the most recent version of the Internet Protocol. Internet Engineer Taskforce initiated it in early 1994. The design and development of that suite are now called IPv6.
 - This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces.
 - This new IP address version is being deployed to fulfill the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 unique address spaces. IPv6 is also called IPng (Internet Protocol next generation).
-- ```*IP Address - IPv4 vs IPv6*```: https://www.youtube.com/watch?v=ThdO9beHhpA
-- ```IPv6 Addresses Explained```: https://www.youtube.com/watch?v=irhS0ASkvy8
+- *```IP Address - IPv4 vs IPv6```:* https://www.youtube.com/watch?v=ThdO9beHhpA
+- *```IPv6 Addresses Explained```:* https://www.youtube.com/watch?v=irhS0ASkvy8
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
