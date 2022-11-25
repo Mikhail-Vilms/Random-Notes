@@ -202,6 +202,11 @@
 ## ```Network Protocols```
 - A network can be defined as a group of computers and other devices connected in some ways to exchange data. It is a group of computers that use standard communication protocols over digital interconnections to share resources.
 - A **network protocol** is a defined set of rules that specify how data is transmitted on the same network between different devices. In general, it allows connected devices to interact with each other, irrespective of any variations in their internal processes, structure, or configuration.
+#### ```OSI Model```
+- **Open Systems Interconnection (OSI)** model describes seven layers that computer systems use to communicate over a network. Each layer represents a different category of networking functions.
+- ![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png)
+
+
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
