@@ -10,7 +10,7 @@
   - **[States of a Process in Operating System](#States-of-a-Process-in-Operating-System)**
 - **[Client Server Architecture](#Client-Server-Architecture)**
 - **[Peer-to-Peer Networks]** - TODO
-- **[Horizontal VS Vertical Scaling](#Horizontal-VS-Vertical-Scaling)**
+- **[Network Protocols](#Network-Protocols)**
 - **[Distributed System](#Distributed-System)**
 - Consistent Hashing
 - **[CAP Theorem](#CAP-Theorem)**
