@@ -249,7 +249,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - *```IP Address - IPv4 vs IPv6```:* https://www.youtube.com/watch?v=ThdO9beHhpA
 - *```IPv6 Addresses Explained```:* https://www.youtube.com/watch?v=irhS0ASkvy8
 
-#### Transmission Control Protocols
+#### ```Transmission Control Protocols```
 - One IP Packet's size is significantly less, which is not enough to send large files such as images, emails, and other heavy information. 
   - So, it will not fit in one IP packet. 
   - So, we have to use multiple packets to send such data. 
