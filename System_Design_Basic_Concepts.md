@@ -86,17 +86,18 @@
 #### Links
 - https://www.enjoyalgorithms.com/blog/throughput-in-system-design/
 - https://www.youtube.com/watch?v=-BOysyYErLY&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&index=20&ab_channel=GauravSen
+
 ---
 ---
 
-## Process Management in Operating System
+## ```Process Management in Operating System```
 
-#### Process
+#### ```Process```
 - In simple words, a program in execution is called a process
 - It is an instance of a program that actually runs, i.e., an entity that can be assigned and executed on a processor
 - Two essential process elements are **program code** and a **set of data** associated with that code.
 
-#### Process Memory
+#### ```Process Memory```
 - Process memory is divided into four sections:
   - The **program memory** stores the compiled program code, read in form of non-volitile storage when the program is launched
   - The **data section** stores global and static variables, allocated and initialized before executing the main program.
@@ -105,7 +106,7 @@
 - ![image](https://user-images.githubusercontent.com/57194114/202915150-ee07a87b-5b6b-4e58-8ee6-a5349925bd0a.png)
 - Note: The stack and heap sections start at opposite ends of the process's free space and grow towards each other. When they meet, a stack overflow error will occur, or a call to new memory allocation will fail due to insufficient memory available in a heap section.
 
-#### Process Control Block
+#### ```Process Control Block```
 - https://en.wikipedia.org/wiki/Process_control_block
   - A process control block (PCB) is a data structure used by computer operating systems to store all the information about a process. 
   - It is also known as a process descriptor. 
@@ -120,8 +121,11 @@
   - **Memory-Management information(???):** Page tables or segment tables(???).
   - **Accounting information(???):** User and kernel CPU time consumed, account numbers, limits, etc.
 - ![image](https://user-images.githubusercontent.com/57194114/202916501-6d172c78-b0ea-4cc2-a3f8-8bc73a607d39.png)
+
 ---
-## Client-Server Architecture
+---
+
+## ```Client-Server Architecture```
 - The client-server architecture is a distributed application framework consisting of clients and servers in which server hosts, manages, and delivers client services. 
 - Clients are connected to a central server, and they communicate over internet connection through computer network. 
 - Whenever client needs any service, it sends a request to servers, which process the request and return response to the client.
@@ -209,7 +213,9 @@
   - The Transmission Control Protocol (TCP) ensures, as another example, that the transport of data packets through networks goes smoothly. Thus, TCP is considered to be a transport layer (layer 4)
 - **A packet is a tiny segment of a large message.** The data transmitted over networks of machines, such as the Internet, is split into packets. The computer or system that collects them then recombines these packets.
 - ![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png)
-- 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/57194114/204029052-28b64403-b0f3-4c03-9423-9f2a51f3c9b0.png) |  ![](https://...Ocean.png)
 
 
 #### Links
