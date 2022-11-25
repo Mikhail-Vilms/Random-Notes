@@ -63,7 +63,18 @@
 - One way to look at is how resistant a system is to failures.
 - A system’s availability is measured as the percentage of a system’s uptime in a given time period or by dividing the total uptime by the total uptime and downtime in a given period of time.
 - High Availability comes with its own tradeoffs, such as higher latency or lower throughput, and achieving high availability is very difficult. To make highly available systems, we need to make sure that the system does not have any 
-- 
+
+#### ```Achieving High Availability```
+- High Availability comes with its own tradeoffs, such as higher latency or lower throughput, and achieving high availability is very difficult. To make highly available systems, we need to make sure that the system does not have any single point of failure.
+- To eliminate any single point of failure, we need to make our system more redundant. 
+- **Redundancy is the act of duplicating or adding certain parts of our system.** 
+  - Let's take an example; imagine you have a system consisting of two identical web servers that are installed behind a load balancer. The traffic coming from clients will be distributed between the web servers, but if one of the servers goes down, the load balancer will redirect all traffic to the remaining server, which is working.
+  - Now that we have made our servers redundant and prone to failure as the load balancer can detect the failure and respond accordingly. But, in this scenario, the load balancing layer itself remains the single point of failure. To avoid this, a simple way out is to make the load balancing layer redundant.
+- An essential thing to note here is that redundancy alone cannot ensure high availability.
+  - A device also needs mechanisms for detecting failures.
+  - It is also important to be able to perform high-availability testing and to be able to take corrective action any time one of the stack’s components becomes unavailable. 
+  - Top-to-bottom or distributed high-availability approaches may include both work and hardware, or software-based downtime reduction techniques are also successful.   - Redundancy is a hardware-based approach. The implementation of high availability techniques, on the other hand, almost always requires software.
+
 #### Links
 - https://www.enjoyalgorithms.com/blog/throughput-in-system-design/
 
