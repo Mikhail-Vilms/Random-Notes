@@ -18,7 +18,7 @@
   - **[HTTP](#HTTP)**
   - **[World Wide Web Consortium](#World-Wide-Web-Consortium)**
   - **[Remote Procedure Call](#Remote-Procedure-Call)**
-- Consistent Hashing
+- **[Long Polling](#Long-Polling)**
 - **[CAP Theorem](#CAP-Theorem)**
 - **[Domain Name Service](#domain-name-service)**
 - **[Caching](#Caching)**
@@ -297,6 +297,25 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/network-protocols-concept/
+
+---
+---
+
+## ```Long Polling```
+- Polling is a technique that allows the servers to push information to a client. On another side, long polling is a version of traditional polling that allows the server to send data to a client whenever available. 
+  - It involves the client requesting information from the server in the same way standard polling does, but with the caveat that the server may not respond immediately.
+  - A complete response is delivered to the client once the data is accessible.
+- Long polling reduces the number of HTTP requests required to send the same amount of information to the client.
+  - However, the server must “hold” unfulfilled client requests and deal with the situation in which it receives new information to deliver, but the client has not yet issued a new request.
+  - Long polling has the advantage of being part of the HTTP protocol, which means it’s widely accepted and generates less bandwidth than short polling because it requires fewer queries.
+  - Overall, it is reliable for continuously updating clients with new information.
+- The following is the basic life cycle of an application that uses HTTP Long Polling:
+  - The client sends an HTTP request and then waits for a response.
+  - The server provides the client with a complete response when an update is available.
+  - After getting a response, the client sends a new long-poll request immediately or after a pause to allow for an appropriate latency duration.
+  - A timeout is set for each Long-Poll request. After a connection is lost owing to timeouts, the client must rejoin regularly.
+  - ![image](https://user-images.githubusercontent.com/57194114/204110558-9f320755-e341-4769-a5aa-f426c815381b.png)
+
 
 ---
 ---
