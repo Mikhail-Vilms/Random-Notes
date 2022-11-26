@@ -322,7 +322,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 
 #### Links
 - https://www.enjoyalgorithms.com/blog/long-polling-in-system-design/
-- Short Polling vs Long Polling vs WebSockets: https://www.youtube.com/watch?v=ZBM28ZPlin8
+- *```Short Polling vs Long Polling vs WebSockets:```* https://www.youtube.com/watch?v=ZBM28ZPlin8
 - 
 ---
 ---
