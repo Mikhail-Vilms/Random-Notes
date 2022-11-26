@@ -315,8 +315,15 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
   - After getting a response, the client sends a new long-poll request immediately or after a pause to allow for an appropriate latency duration.
   - A timeout is set for each Long-Poll request. After a connection is lost owing to timeouts, the client must rejoin regularly.
   - ![image](https://user-images.githubusercontent.com/57194114/204110558-9f320755-e341-4769-a5aa-f426c815381b.png)
+- Long polling is a more efficient version of the basic polling method. 
+  - Repeated requests to the server waste resources since each new incoming connection requires establishing a new connection, parsing HTTP headers, a new data query, and generating and delivering a response. 
+  - After that, the connection must be ended, and any resources must be cleaned up.
+- Long polling is a strategy in which the server chooses to keep a client’s connection open for as long as feasible, only responding when data becomes available, or a timeout threshold is reached, rather than having to repeat the procedure for each client until new data becomes available.
 
-
+#### Links
+- https://www.enjoyalgorithms.com/blog/long-polling-in-system-design/
+- Short Polling vs Long Polling vs WebSockets: https://www.youtube.com/watch?v=ZBM28ZPlin8
+- 
 ---
 ---
 
