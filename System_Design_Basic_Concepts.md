@@ -20,6 +20,7 @@
   - **[Remote Procedure Call](#Remote-Procedure-Call)**
 - **[Long Polling](#Long-Polling)**
 - **[CAP Theorem](#CAP-Theorem)**
+- **[WebSockets](#WebSockets)**
 - **[Domain Name Service](#domain-name-service)**
 - **[Caching](#Caching)**
   - **[Types of Caching](#Types-of-Caching)**
@@ -323,9 +324,15 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 #### Links
 - https://www.enjoyalgorithms.com/blog/long-polling-in-system-design/
 - *```Short Polling vs Long Polling vs WebSockets:```* https://www.youtube.com/watch?v=ZBM28ZPlin8
-- 
+
 ---
 ---
+
+## ```WebSockets```
+
+---
+---
+
 
 ## ```Latency```
 
