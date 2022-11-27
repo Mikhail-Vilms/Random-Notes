@@ -341,6 +341,15 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
     - Previously it used to support only strings, but now in the latest spec, it can send even the binary messages using Blob or ArrayBuffer object.
   - Similarly, the server might send us messages by firing the "onmessage" callback. The callback receives an event object while the data property is used to access the actual message.(???)
   - Web sockets also have an additional feature named Extension, which helps in sending compressed or multiplexed frames.(???)
+- ```Key Features```
+  - Bi-directional data exchange: Web sockets play a significant role in reducing network traffic by transmitting data in both directions simultaneously using a single connection.
+  - HTTP compatibility: Web sockets are highly compatible with earlier versions of HTTP connection, which allow us to switch between HTTP and web socket. 
+  - Publish/Subscribe event pattern: Web sockets allows a highly efficient data transfer model. Communication channels are established, allowing sending messages to and from a server and receiving event-driven responses without continuously polling the server.
+- ```Examples```
+  - Instant chat: Web Sockets play a significant role in real-time messaging. They are quite useful in building real-time and complex features like encrypted messages, typing indicators, etc., for chat services.
+  - Multi-Player gaming: Web Sockets are quite helpful in synchronizing the game states between players and allow the low-latency network to work with. They allow seamless experiences across devices and allow many real-time interactive features for online and connected gaming.
+  - Online maps: Live geo-location data is used to build real-time online maps. Web Sockets play a significant role in routing and navigation of any moving asset on an alive map.
+  - Live results: Web Sockets help enhance the platform and keep updating the user with the latest information and lie status like election polls and their results, live score updates, etc. 
 
 #### Links
 - *```What are WebSockets? How is it different from HTTP?:```* https://www.youtube.com/watch?v=xTR5OflgwgU
