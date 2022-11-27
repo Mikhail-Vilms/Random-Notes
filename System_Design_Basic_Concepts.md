@@ -339,7 +339,7 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
   - However, for opening a web socket connection, one needs to call the web socket constructor. For web socket "ws:" and "wss:" URL schema is used; while for HTTP, "https:" is used.
 
 #### Links
-- ```What are WebSockets? How is it different from HTTP?:``` https://www.youtube.com/watch?v=xTR5OflgwgU
+- *```What are WebSockets? How is it different from HTTP?:```* https://www.youtube.com/watch?v=xTR5OflgwgU
 
 ---
 ---
