@@ -337,6 +337,10 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 - ```How does Web Socket work?```
   - Web Socket is a full-duplex protocol. Once the connection is established in a client-server architecture, the message exchange starts in a bidirectional mode and it will remain alive between client and server until either party terminates it.
   - However, for opening a web socket connection, one needs to call the web socket constructor. For web socket "ws:" and "wss:" URL schema is used; while for HTTP, "https:" is used.
+  - After the establishment of a connection with the server, the data is sent to the server using the "send()" method on the connection object.(???)
+    - Previously it used to support only strings, but now in the latest spec, it can send even the binary messages using Blob or ArrayBuffer object.
+  - Similarly, the server might send us messages by firing the "onmessage" callback. The callback receives an event object while the data property is used to access the actual message.(???)
+  - Web sockets also have an additional feature named Extension, which helps in sending compressed or multiplexed frames.(???)
 
 #### Links
 - *```What are WebSockets? How is it different from HTTP?:```* https://www.youtube.com/watch?v=xTR5OflgwgU
