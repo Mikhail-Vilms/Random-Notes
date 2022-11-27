@@ -19,7 +19,6 @@
   - **[World Wide Web Consortium](#World-Wide-Web-Consortium)**
   - **[Remote Procedure Call](#Remote-Procedure-Call)**
 - **[Long Polling](#Long-Polling)**
-- **[CAP Theorem](#CAP-Theorem)**
 - **[WebSockets](#WebSockets)**
 - **[Domain Name Service](#domain-name-service)**
 - **[Caching](#Caching)**
@@ -329,6 +328,18 @@ Open Systems Interconnection (OSI)             |  Types Network Protocols
 ---
 
 ## ```WebSockets```
+- WebSocket is a bidirectional lightweight communication protocol that can send the client's data to the server or from the server to the client. It aimed to provide a full-duplex communication channel compared to a single TCP connection.
+  - Once the connection is established, then kept alive until it is terminated by either the server or the client.
+- Web Sockets are highly used in almost every real-time application like trading, multiplayer, and online games to receive data on a single communication channel in a bidirectional manner.
+- **Web sockets and HTTP differ significantly**, but both protocols depend on TCP at layer 4 (transport layer) in the OSI model and are located at layer 7 (application layer).
+- Web socket protocol mitigates the overhead associated with HTTP by enabling communication between a client and a server with low-weight overheads, aiming to provide real-time data transfer across the channel.
+- It maintains a long-held single TCP socket connection between the client and the server to enable the bi-directional messages to be distributed efficiently, providing a latency-free connection.
+- ```How does Web Socket work?```
+  - Web Socket is a full-duplex protocol. Once the connection is established in a client-server architecture, the message exchange starts in a bidirectional mode and it will remain alive between client and server until either party terminates it.
+  - However, for opening a web socket connection, one needs to call the web socket constructor. For web socket "ws:" and "wss:" URL schema is used; while for HTTP, "https:" is used.
+
+#### Links
+- ```What are WebSockets? How is it different from HTTP?:``` https://www.youtube.com/watch?v=xTR5OflgwgU
 
 ---
 ---
