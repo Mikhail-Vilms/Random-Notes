@@ -3,6 +3,9 @@
 
 ## Yelp
 - Design Yelp: https://www.enjoyalgorithms.com/blog/design-yelp/
+- System Design Interview - Design Yelp Geospatial Geohash: https://www.youtube.com/watch?v=tu6QKpV7GiI
+
+### Geospatial Database
 
 ### Geohashing
 - What is geohash: https://www.educative.io/answers/what-is-geohash\
