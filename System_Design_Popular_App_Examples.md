@@ -8,6 +8,7 @@
 ### Geospatial Database
 
 ### Geohashing
+- Geohash: Deep Intuitive Understanding in under 7 Minutes: https://www.youtube.com/watch?v=UaMzra18TD8
 - What is geohash: https://www.educative.io/answers/what-is-geohash\
 - Geo Library for Amazon DynamoDB: https://www.npmjs.com/package/dynamodb-geo
 - What is geohashing exactly?: https://medium.com/@bkawk/geohashing-20b282fc9655
