@@ -2,6 +2,7 @@
 - [Yelp](#Yelp)
 
 ## Yelp
+- Design Yelp: https://www.enjoyalgorithms.com/blog/design-yelp/
 
 ### Geohashing
 - What is geohash: https://www.educative.io/answers/what-is-geohash\
