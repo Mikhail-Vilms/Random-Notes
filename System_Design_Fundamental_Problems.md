@@ -1,9 +1,7 @@
 # System Design Problems
 
 ### List of problems
-- **TinyURL**
-- **Instagram**
-- **Twitter**
+- **[Key-Value Storage](#Key-Value-Storage)**
 - **[Distributed Cache](#Distributed-Cache)**
 
 ## ```Distributed Cache```
