@@ -4,6 +4,10 @@
 - **[Key-Value Storage](#Key-Value-Storage)**
 - **[Distributed Cache](#Distributed-Cache)**
 
+## ```Key-Value Storage```
+### Hash Indexes
+
+
 ## ```Distributed Cache```
 #### Stepping Into The Distributed World
 - We can start with a really straightforward idea: we move LRU cache that we just implemented to it's own host
