@@ -1,5 +1,9 @@
 # System Design: Popular App Examples 
+- [Search Engine](#Search-Engine)
 - [Yelp](#Yelp)
+
+## Search Engine
+
 
 ## Yelp
 - Design Yelp: https://www.enjoyalgorithms.com/blog/design-yelp/
