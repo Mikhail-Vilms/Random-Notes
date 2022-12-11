@@ -3,7 +3,8 @@
 - [Yelp](#Yelp)
 
 ## Search Engine
-
+- https://medium.com/double-pointer/system-design-interview-search-engine-edb66b64fd5e
+- 
 
 ## Yelp
 - Design Yelp: https://www.enjoyalgorithms.com/blog/design-yelp/
