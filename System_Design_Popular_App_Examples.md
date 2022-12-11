@@ -4,7 +4,7 @@
 
 ## Search Engine
 - https://medium.com/double-pointer/system-design-interview-search-engine-edb66b64fd5e
-- 
+- https://www.youtube.com/watch?v=_xpIfIHzMD0
 
 ## Yelp
 - Design Yelp: https://www.enjoyalgorithms.com/blog/design-yelp/
