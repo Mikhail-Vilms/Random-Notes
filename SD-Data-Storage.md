@@ -17,3 +17,6 @@
   - ![image](https://user-images.githubusercontent.com/57194114/207241752-7bc169c3-4b48-4d2d-922e-9ffc9c1bee66.png)
   - Since compaction often makes segments much smaller (assuming that a key is overwritten several times on average within one segment), we can also merge several segments together at the same time as performing the compaction
   - ![image](https://user-images.githubusercontent.com/57194114/207242489-ed5ac8b3-c3c6-4f77-8713-1206e94cc7a5.png)
+  - Segments are never modified after they have been written, so the merged segment is written to a new file.
+    - The merging and compaction of frozen segments can be done in a background thread, and while it is going on, we can still continue to serve read and write requests as normal, using the old segment files
+  - After the merging process is complete, we switch read requests to using the new merged segment instead of the old segments—and then the old segment files can simply be deleted. 
