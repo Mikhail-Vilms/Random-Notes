@@ -15,4 +15,5 @@
 - We can then perform compaction on these segments.
   - Compaction means throwing away duplicate keys in the log, and keeping only the most recent update for each key.
   - ![image](https://user-images.githubusercontent.com/57194114/207241752-7bc169c3-4b48-4d2d-922e-9ffc9c1bee66.png)
-
+  - Since compaction often makes segments much smaller (assuming that a key is overwritten several times on average within one segment), we can also merge several segments together at the same time as performing the compaction
+  - ![image](https://user-images.githubusercontent.com/57194114/207242489-ed5ac8b3-c3c6-4f77-8713-1206e94cc7a5.png)
