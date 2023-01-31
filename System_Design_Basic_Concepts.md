@@ -21,6 +21,10 @@
 - **[Long Polling](#Long-Polling)**
 - **[WebSockets](#WebSockets)**
 - **[Domain Name Service](#domain-name-service)**
+- **[IaaS-PaaS-SaaS]**
+  - **[IaaS](#IaaS)**
+  - **[PaaS](#PaaS)**
+  - **[SaaS](#SaaS)**
 - **[Caching](#Caching)**
   - **[Types of Caching](#Types-of-Caching)**
   - **[Cache Eviction Policy](#Cache-Eviction-Policy)**
@@ -423,6 +427,14 @@ Latency restricts the performance of the system; hence it is necessary to optimi
   - Use an asynchronous programming model to utilize better hardware resources as blocking operations cause long wait times.
   - Limiting the unbounded queue depths and providing back pressure typically lead to less wait time in the code resulting in more predictable latencies.
 
+---
+---
+## IaaS
+- https://aws.amazon.com/what-is/iaas/
+- https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/
+- https://www.redhat.com/en/topics/cloud-computing/what-is-iaas
+- https://www.ibm.com/topics/iaas
+- https://www.youtube.com/watch?v=XRdmfo4M_YA&ab_channel=IBMTechnology
 ---
 ---
 
